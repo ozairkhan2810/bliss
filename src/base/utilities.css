@@ -1,0 +1,35 @@
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.text-red {
+    color: var(--red);
+}
+
+.ml-2 {
+    margin-left: 0.4rem;
+}
+
+.mt-4 {
+    margin-top: 2rem;
+}
+
+.h-8 {
+    height: 400px;
+}
+
+/* .w-8 {
+    width: 400px;
+} */
