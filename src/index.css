@@ -1,0 +1,9 @@
+/* base import */
+@import './base/variables.css';
+@import './base/reset.css';
+@import './base/utilities.css';
+
+/* components import */
+@import './components/navbar.css';
+@import './components/button.css';
+@import './components/image.css';
