@@ -9,6 +9,8 @@ html, body {
     padding: 0;
     font-size: 100%;
     background: var(--bg);
+    /* border: 5px solid var(--fg); */
+    /* height: 100vh; */
 }
 
 a {

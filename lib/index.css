@@ -4,6 +4,4 @@
 @import './base/utilities.css';
 
 /* components import */
-@import './components/navbar.css';
-@import './components/button.css';
-@import './components/image.css';
+@import './components/avatar.css';

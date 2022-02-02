@@ -1,0 +1,85 @@
+/* navbar styling for landing page and documentation page */
+.navbar {
+  z-index: 10;
+  background: var(--bg);
+  /* margin-top: 2rem; */
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.navbar-brand:hover {
+  text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-item a {
+  padding: 0.4rem 0.8rem;
+  margin-left: 0.5rem;
+}
+
+.nav-item a:hover {
+  background: var(--bg1);
+  border-radius: 3px;
+  text-decoration: none;
+  transition: background 200ms linear;
+}
+
+/* button styling for landing page */
+.btn {
+  padding: 0.4rem 0.8rem;
+  font-size: 1rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background: var(--blue-dim);
+  color: var(--fg);
+}
+
+.btn-secondary {
+  color: var(--blue-dim);
+  border: 1px solid var(--blue-dim);
+}
+
+.btn-lg {
+  font-size: 1.15rem;
+  padding: 0.5rem 1rem;
+}
+
+/* sidebar styling for documentation page */
+.sidebar {
+  width: 12.5rem;
+  padding: 0 1rem;
+  font-size: 1.3rem;
+  position: fixed;
+  /* top: 0; */
+  height: 100vh;
+  /* border-right: 2px solid rgb(218, 202, 202); */
+  /* margin-top: 2rem; */
+  z-index: 5;
+}
+
+.sidebar a {
+    border-bottom: 2px solid #f3e6b0;
+    padding-bottom: 0.5rem;
+}
+
+/* main content styling for documentation page */
+.main {
+  margin-left: 13.5rem;
+}
