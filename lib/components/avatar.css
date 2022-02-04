@@ -1,59 +1,47 @@
 .av {
-    height: 4.3rem;
-    width: 4.3rem;
+  height: 4.3rem;
+  width: 4.3rem;
 }
 
 .av,
 .av-sm,
-.av-md, 
-.av-lg, 
+.av-md,
+.av-lg,
 .av-xl {
-    border-radius: 100%;
+  border-radius: 100%;
 }
 
 .av-sm {
-    height: 3.5rem;
-    width: 3.5rem;
+  height: 3.5rem;
+  width: 3.5rem;
 }
 
 .av-md {
-    height: 4rem;
-    width: 4rem;
+  height: 4rem;
+  width: 4rem;
 }
 
 .av-lg {
-    height: 4.5rem;
-    width: 4.5rem;
+  height: 4.5rem;
+  width: 4.5rem;
 }
 
 .av-xl {
-    height: 5rem;
-    width: 5rem;
+  height: 5rem;
+  width: 5rem;
 }
 
 .status {
-    height: 1.2rem;
-    width: 1.2rem;
-    border-radius: 100%;
-    position: absolute;
-    top: 3.3rem;
-    right: 1rem;
-    border: 2px solid white !important;
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 100%;
+  position: absolute;
+  top: 3.3rem;
+  right: 1rem;
+  border: 2px solid var(--white);
 }
 
-.red {
-    background: red;
+.icon-status {
+  top: 3rem;
+  right: 0.1rem;
 }
-
-.green {
-    background: green;
-}
-
-.gray {
-    background: lightgray;
-}
-
-.rel {
-    position: relative;
-}
-

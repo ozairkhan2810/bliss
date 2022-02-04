@@ -34,7 +34,7 @@
         <h3 class="hd-3">Components</h3>
         <a class="mt-2" href="#avatar">Avatar</a>
         <a class="mt-2" href="#alert">Alert</a>
-        <a class="mt-2" href="">Badge</a>
+        <a class="mt-2" href="#badge">Badge</a>
         <a class="mt-2" href="">Button</a>
       </aside>
 
@@ -51,7 +51,11 @@
               <img class="av-lg mr-2" src="../assets/astro.png" alt="astro" />
               <img class="av-xl mr-2" src="../assets/astro.png" alt="astro" />
             </div>
-            <iframe src="https://www.thiscodeworks.com/embed/61f931031e1df400153793fe" style="width: 100%; height: 185px" frameborder="0">
+            <iframe
+              src="https://www.thiscodeworks.com/embed/61f931031e1df400153793fe"
+              style="width: 100%; height: 185px"
+              frameborder="0"
+            >
             </iframe>
           </div>
           <p class="text-content">Avatar with status on profile picture.</p>
@@ -68,12 +72,11 @@
               <img class="av mr-2" src="../assets/astro.png" alt="astro" />
               <span class="status gray"></span>
             </div>
-            <div class="rel mb-2">
-              <i class="fas fa-bell"></i>
-              <span class="status green"></span>
+            <div class="rel">
+              <img class="av" src="../assets/user-icon.svg" alt="bell-icon" />
+              <span class="status icon-status green"></span>
             </div>
-            <iframe src="https://www.thiscodeworks.com/embed/61f96efe1e1df4001537944c" style="width: 100%; height: 350px" frameborder="0">
-            </iframe>
+            <iframe src="https://www.thiscodeworks.com/embed/61fcc7a3b57bf800152b720a" style="width: 100%; height: 294px;" frameborder="0"></iframe>
           </div>
         </div>
         <!-- Avatar end -->
@@ -88,9 +91,30 @@
             <div class="alert alert-warning">This is Warning Alert</div>
             <div class="alert alert-success">This is Success Alert</div>
           </div>
-          <iframe src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87" style="width: 100%; height: 170px;" frameborder="0"></iframe>
+          <iframe
+            src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87"
+            style="width: 100%; height: 170px"
+            frameborder="0"
+          ></iframe>
         </div>
         <!-- Alert end -->
+        <!-- Badge Component -->
+        <div id="badge" class="ml-2 newline">
+          <h3>Badge</h3>
+          <p class="text-content">Badge on Icon</p>
+          <div class="badge-container mb-2">
+            <img src="../assets/bell-icon.svg" alt="bell-icon" />
+            <span class="badge red">5</span>
+          </div>
+          <iframe src="https://www.thiscodeworks.com/embed/61fcbc98b57bf800152b71fe" style="width: 100%; height: 144px;" frameborder="0"></iframe>
+          <p class="text-content">Badge on Avatar</p>
+          <div class="badge-container mb-2">
+            <img class="badge-img" src="../assets/astro.png" alt="astro" />
+            <span class="badge red">5</span>
+          </div>
+          <iframe src="https://www.thiscodeworks.com/embed/61fcbd09b57bf800152b71ff" style="width: 100%; height: 144px;" frameborder="0"></iframe>
+        </div>
+        <!-- Badge end -->
       </div>
       <!-- main class end -->
     </div>
