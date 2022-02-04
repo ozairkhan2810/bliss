@@ -1,8 +1,7 @@
 .container {
-    max-width: 60rem;
+    max-width: 100%;
     width: 100%;
-    margin: 0 auto;
-    padding: 1rem;
+    padding: 0 5rem;
 }
 
 .flex {
@@ -32,6 +31,10 @@
 
 .mt-2 {
     margin-top: 1rem;
+}
+
+.pd-8 {
+    padding-top: 4rem;
 }
 
 .pr-2 {

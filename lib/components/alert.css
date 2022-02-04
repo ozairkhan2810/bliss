@@ -1,0 +1,27 @@
+.alert {
+  width: 20rem;
+  margin: 1rem 0;
+  padding: 1rem;
+  color: var(--white);
+  border-radius: 0.4rem;
+}
+
+.alert-primary {
+  background: var(--blue);
+}
+
+.alert-secondary {
+  background: var(--blue-dim);
+}
+
+.alert-error {
+  background: var(--yellow);
+}
+
+.alert-warning {
+  background: var(--red);
+}
+
+.alert-success {
+  background: var(--green);
+}

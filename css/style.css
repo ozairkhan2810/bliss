@@ -1,7 +1,8 @@
 /* navbar styling for landing page and documentation page */
 .navbar {
   z-index: 10;
-  background: var(--bg);
+  background: var(--bg-nav);
+  position: fixed;
 }
 
 .navbar-nav {
@@ -62,6 +63,7 @@
 
 /* sidebar styling for documentation page */
 .sidebar {
+  margin-top: 3rem;
   width: 12.5rem;
   padding: 0 1rem;
   font-size: 1.3rem;
@@ -71,11 +73,18 @@
 }
 
 .sidebar a {
-    border-bottom: 2px solid #f3e6b0;
-    padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f3e6b0;
+  padding-bottom: 0.5rem;
+  font-size: 1.1rem;
+}
+
+.hd-3 {
+  margin: 1rem 0 0.2rem 0;
+  font-size: 1.2rem;
 }
 
 /* main content styling for documentation page */
 .main {
   margin-left: 13.5rem;
+  margin-top: 3rem;
 }
