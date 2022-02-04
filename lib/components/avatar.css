@@ -1,13 +1,6 @@
 .av {
   height: 4.3rem;
   width: 4.3rem;
-}
-
-.av,
-.av-sm,
-.av-md,
-.av-lg,
-.av-xl {
   border-radius: 100%;
 }
 
