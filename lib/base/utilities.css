@@ -68,3 +68,15 @@
 .images {
     margin: 1rem 0;
 }
+
+.red {
+    background: var(--red-dim);
+}
+
+.green {
+    background: var(--green-dim);
+}
+
+.gray {
+    background: var(--gray);
+}
