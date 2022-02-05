@@ -17,7 +17,6 @@
   right: -0.3rem;
   top: -0.5rem;
   border: 2px solid var(--white);
-  font-weight: 500;
   color: var(--white);
   display: flex;
   justify-content: center;
@@ -26,5 +25,5 @@
 
 .badge-img,
 .badge {
-  border-radius: 100%;
+  border-radius: 50%;
 }
