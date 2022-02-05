@@ -1,7 +1,7 @@
 /* navbar styling for landing page and documentation page */
 .navbar {
   z-index: 10;
-  background: var(--bg-nav);
+  background: var(--background-dark);
   position: fixed;
 }
 
@@ -14,7 +14,6 @@
 .navbar-brand {
   font-size: 1.5rem;
   font-weight: bold;
-  color: var(--black);
 }
 
 .navbar-brand:hover {
@@ -31,14 +30,14 @@
 }
 
 .nav-item a:hover {
-  background: var(--bg1);
+  background: var(--gray-yellow);
   border-radius: 3px;
   text-decoration: none;
   transition: background 200ms linear;
 }
 
 /* button styling for landing page */
-.btn {
+.btn-lp {
   padding: 0.4rem 0.8rem;
   font-size: 1rem;
   font-weight: 500;
@@ -46,12 +45,11 @@
   border-radius: 5px;
 }
 
-.btn-primary {
-  background: var(--blue-dim);
-  color: var(--fg);
+.btn-primary-lp {
+  background: var(--light-blue);
 }
 
-.btn-secondary {
+.btn-secondary-lp {
   color: var(--blue-dim);
   border: 1px solid var(--blue-dim);
 }
@@ -66,14 +64,13 @@
   margin-top: 3rem;
   width: 12.5rem;
   padding: 0 1rem;
-  font-size: 1.3rem;
   position: fixed;
   height: 100vh;
   z-index: 5;
 }
 
 .sidebar a {
-  border-bottom: 2px solid #f3e6b0;
+  border-bottom: 2px solid var(--dark-yellow);
   padding-bottom: 0.5rem;
   font-size: 1.1rem;
 }
@@ -85,6 +82,7 @@
 
 /* main content styling for documentation page */
 .main {
+  width: 65%;
   margin-left: 13.5rem;
   margin-top: 3rem;
 }
