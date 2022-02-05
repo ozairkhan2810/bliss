@@ -1,0 +1,83 @@
+.card-badge,
+.card-dismiss,
+.card-text-overlay,
+.card-text-only,
+.card-horizontal,
+.card-vertical,
+.card-shadow {
+  display: flex;
+  flex-direction: column;
+  width: 18rem;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  background: var(--black-shade);
+  border-radius: 5px;
+}
+
+.card-badge-msg,
+.card-dismiss-pic {
+  color: white;
+  background: red;
+  display: inline;
+  padding: 0.2rem;
+  position: absolute;
+  left: 11.5rem;
+  border-radius: 5px;
+  margin-top: 0.1rem;
+}
+
+.img-card {
+  height: 10rem;
+  width: 18rem;
+  border-radius: 5px;
+}
+
+.card-main,
+.card-content {
+  padding: 0 1rem;
+  color: var(--white);
+}
+
+.card-title,
+.card-by {
+  margin-bottom: 0;
+  color: var(--white);
+}
+
+.card-by {
+  font-size: 1rem;
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+  font-weight: lighter;
+}
+
+.card-dismiss-pic {
+  left: 16rem;
+  padding: 0.5rem;
+  font-size: 0;
+  margin-top: 0.4rem;
+}
+
+.card-text-overlay-main {
+  position: absolute;
+  top: 5rem;
+  left: 1rem;
+}
+
+.card-text-only {
+    width: 20rem;
+}
+
+.card-text-only-main {
+    padding: 0 1rem;
+}
+
+.card-horizontal, .img-card-horizontal {
+    width: 25rem;
+}
+
+.card-shadow {
+    box-shadow: 5px 5px var(--gray);
+    margin-bottom: 1rem;
+}
