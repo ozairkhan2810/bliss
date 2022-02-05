@@ -11,7 +11,7 @@
 }
 
 .alert-secondary {
-  background: var(--blue-dim);
+  background: var(--light-blue);
 }
 
 .alert-error {

@@ -5,10 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Documentation | blissUI</title>
-    <script
-      src="https://kit.fontawesome.com/c4a6224059.js"
-      crossorigin="anonymous"
-    ></script>
     <link rel="stylesheet" href="../bliss.css" />
     <link rel="stylesheet" href="../css/style.css" />
   </head>
@@ -35,49 +31,44 @@
         <a class="mt-2" href="#avatar">Avatar</a>
         <a class="mt-2" href="#alert">Alert</a>
         <a class="mt-2" href="#badge">Badge</a>
-        <a class="mt-2" href="">Button</a>
+        <a class="mt-2" href="#button">Button</a>
       </aside>
 
       <!-- main content -->
       <div class="main">
         <!-- Avatar Component -->
-        <div id="avatar" class="avatar ml-2 newline">
+        <div id="avatar" class="ml-1 newline">
           <h3>Avatar</h3>
-          <div class="avatars flex fd-c mb-2">
+          <div class="flex fd-c mb-1">
             <p class="text-content">Avatar with different sizes.</p>
             <div class="images">
-              <img class="av-sm mr-2" src="../assets/astro.png" alt="astro" />
-              <img class="av-md mr-2" src="../assets/astro.png" alt="astro" />
-              <img class="av-lg mr-2" src="../assets/astro.png" alt="astro" />
-              <img class="av-xl mr-2" src="../assets/astro.png" alt="astro" />
+              <img class="avatar avatar-sm mr-2" src="../assets/astro.png" alt="astro"/>
+              <img class="avatar avatar-md mr-2" src="../assets/astro.png" alt="astro"/>
+              <img class="avatar avatar-lg mr-2" src="../assets/astro.png" alt="astro"/>
+              <img class="avatar avatar-xl mr-2" src="../assets/astro.png" alt="astro"/>
             </div>
-            <iframe
-              src="https://www.thiscodeworks.com/embed/61f931031e1df400153793fe"
-              style="width: 100%; height: 185px"
-              frameborder="0"
-            >
-            </iframe>
+            <iframe src="https://www.thiscodeworks.com/embed/61f931031e1df400153793fe" style="width: 100%; height: 170px;" frameborder="0"></iframe>
           </div>
           <p class="text-content">Avatar with status on profile picture.</p>
-          <div class="flex mb-2">
-            <div class="rel mb-2">
-              <img class="av mr-2" src="../assets/astro.png" alt="astro" />
+          <div class="flex mb-1">
+            <div class="rel mb-1">
+              <img class="avatar mr-2" src="../assets/astro.png" alt="astro" />
               <span class="status red"></span>
             </div>
-            <div class="rel mb-2">
-              <img class="av mr-2" src="../assets/astro.png" alt="astro" />
+            <div class="rel mb-1">
+              <img class="avatar mr-2" src="../assets/astro.png" alt="astro" />
               <span class="status green"></span>
             </div>
-            <div class="rel mb-2">
-              <img class="av mr-2" src="../assets/astro.png" alt="astro" />
+            <div class="rel mb-1">
+              <img class="avatar mr-2" src="../assets/astro.png" alt="astro" />
               <span class="status gray"></span>
             </div>
             <div class="rel">
-              <img class="av" src="../assets/user-icon.svg" alt="bell-icon" />
+              <img class="avatar" src="../assets/user-icon.svg" alt="bell-icon" />
               <span class="status icon-status green"></span>
             </div>
-            <iframe src="https://www.thiscodeworks.com/embed/61fcc7a3b57bf800152b720a" style="width: 100%; height: 294px;" frameborder="0"></iframe>
           </div>
+          <iframe src="https://www.thiscodeworks.com/embed/61f96efe1e1df4001537944c" style="width: 100%; height: 300px;" frameborder="0"></iframe>
         </div>
         <!-- Avatar end -->
         <!-- Alert Component -->
@@ -91,30 +82,58 @@
             <div class="alert alert-warning">This is Warning Alert</div>
             <div class="alert alert-success">This is Success Alert</div>
           </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87"
-            style="width: 100%; height: 170px"
-            frameborder="0"
-          ></iframe>
+          <iframe src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87" style="width: 100%; height: 170px" frameborder="0"></iframe>
         </div>
         <!-- Alert end -->
         <!-- Badge Component -->
         <div id="badge" class="ml-2 newline">
           <h3>Badge</h3>
           <p class="text-content">Badge on Icon</p>
-          <div class="badge-container mb-2">
+          <div class="badge-container mb-1">
             <img src="../assets/bell-icon.svg" alt="bell-icon" />
             <span class="badge red">5</span>
           </div>
-          <iframe src="https://www.thiscodeworks.com/embed/61fcbc98b57bf800152b71fe" style="width: 100%; height: 144px;" frameborder="0"></iframe>
+          <iframe src="https://www.thiscodeworks.com/embed/61fcbc98b57bf800152b71fe" style="width: 100%; height: 144px" frameborder="0"></iframe>
           <p class="text-content">Badge on Avatar</p>
-          <div class="badge-container mb-2">
+          <div class="badge-container mb-1">
             <img class="badge-img" src="../assets/astro.png" alt="astro" />
             <span class="badge red">5</span>
           </div>
-          <iframe src="https://www.thiscodeworks.com/embed/61fcbd09b57bf800152b71ff" style="width: 100%; height: 144px;" frameborder="0"></iframe>
+          <iframe src="https://www.thiscodeworks.com/embed/61fcbd09b57bf800152b71ff" style="width: 100%; height: 144px" frameborder="0"></iframe>
         </div>
         <!-- Badge end -->
+        <!-- Button Component -->
+        <div id="button" class="ml-2 newline pb-1 mb-1">
+          <h3>Button</h3>
+          <p class="text-content">Primary Button/ Secondary Button</p>
+          <div>
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+          </div>
+          <p class="text-content">Link Button</p>
+          <div>
+            <button class="btn btn-primary-link"><a href="">Primary Link Button</a></button>
+            <button class="btn btn-secondary-link"><a class="btn-link" href="">Secondary Link Button</a></button>
+          </div>
+          <p class="text-content">Icon Button</p>
+          <div class="flex gap-1">
+            <button class="btn btn-icon btn-flex">
+              <img class="btn-img-icon" src="../assets/bell-icon.svg" alt="bell-icon"/>
+              Hit the Button
+            </button>
+            <button class="btn btn-icon btn-flex">
+              <img class="btn-img-icon" src="../assets/user-icon.svg" alt="user-icon"/>
+              Sign in
+            </button>
+          </div>
+          <p class="text-content">Floating Action Button</p>
+          <div class="mb-1 flex gap-1">
+            <button class="btn btn-float btn-flex btn-pt-1">+</button>
+            <button class="btn btn-float btn-pt-1">^</button>
+          </div>
+          <iframe src="https://www.thiscodeworks.com/embed/61fd2c3333c09d0015b44d78" style="width: 100%; height: 480px;" frameborder="0"></iframe>
+        </div>
+        <!-- Button end -->
       </div>
       <!-- main class end -->
     </div>
