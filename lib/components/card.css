@@ -40,12 +40,12 @@
 }
 
 .card-title,
-.card-by {
+.card-author {
   margin-bottom: 0;
   color: var(--white);
 }
 
-.card-by {
+.card-author {
   font-size: 1rem;
   margin-bottom: 0;
   margin-top: 0.5rem;
