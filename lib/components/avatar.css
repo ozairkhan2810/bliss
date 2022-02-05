@@ -1,35 +1,35 @@
-.av {
-  height: 4.3rem;
-  width: 4.3rem;
-  border-radius: 100%;
+.avatar {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
 }
 
-.av-sm {
+.avatar-sm {
   height: 3.5rem;
   width: 3.5rem;
 }
 
-.av-md {
+.avatar-md {
   height: 4rem;
   width: 4rem;
 }
 
-.av-lg {
-  height: 4.5rem;
-  width: 4.5rem;
-}
-
-.av-xl {
+.avatar-lg {
   height: 5rem;
   width: 5rem;
+}
+
+.avatar-xl {
+  height: 5.5rem;
+  width: 5.5rem;
 }
 
 .status {
   height: 1.2rem;
   width: 1.2rem;
-  border-radius: 100%;
+  border-radius: 50%;
   position: absolute;
-  top: 3.3rem;
+  top: 3rem;
   right: 1rem;
   border: 2px solid var(--white);
 }
