@@ -1,340 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Documentation | blissUI</title>
-    <link rel="stylesheet" href="../bliss.css" />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
-  <body class="light">
-    <!-- nav bar -->
-    <div class="navbar container">
-      <nav class="navbar-nav">
-        <a href="../index.html" class="navbar-brand">blissUI</a>
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a href="../index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="../documentation/index.html">Documentation</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <!-- content -->
-    <div class="flex rel">
-      <!-- sidebar content -->
-      <aside class="sidebar flex fd-c">
-        <h3 class="hd-3">Components</h3>
-        <a class="mt-2" href="#avatar">Avatar</a>
-        <a class="mt-2" href="#alert">Alert</a>
-        <a class="mt-2" href="#badge">Badge</a>
-        <a class="mt-2" href="#button">Button</a>
-        <a class="mt-2" href="#card">Card</a>
-      </aside>
 
-      <!-- main content -->
-      <div class="main">
-        <!-- Avatar Component -->
-        <div id="avatar" class="ml-1 newline">
-          <h3>Avatar</h3>
-          <div class="flex fd-c mb-1">
-            <p class="text-content">Avatar with different sizes.</p>
-            <div class="images">
-              <img
-                class="avatar avatar-sm mr-2"
-                src="../assets/astro.png"
-                alt="astro"
-              />
-              <img
-                class="avatar avatar-md mr-2"
-                src="../assets/astro.png"
-                alt="astro"
-              />
-              <img
-                class="avatar avatar-lg mr-2"
-                src="../assets/astro.png"
-                alt="astro"
-              />
-              <img
-                class="avatar avatar-xl mr-2"
-                src="../assets/astro.png"
-                alt="astro"
-              />
-            </div>
-            <iframe
-              src="https://www.thiscodeworks.com/embed/61f931031e1df400153793fe"
-              style="width: 100%; height: 170px"
-              frameborder="0"
-            ></iframe>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation | blissUI</title>
+  <link rel="stylesheet" href="../bliss.css" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+
+<body class="light">
+  <!-- nav bar -->
+  <div class="navbar container">
+    <nav class="navbar-nav">
+      <a href="../index.html" class="navbar-brand">blissUI</a>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="../documentation/index.html">Documentation</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!-- content -->
+  <div class="flex rel">
+    <!-- sidebar content -->
+    <aside class="sidebar flex fd-c">
+      <h3 class="hd-3">Components</h3>
+      <a class="mt-1" href="#avatar">Avatar</a>
+      <a class="mt-1" href="#alert">Alert</a>
+      <a class="mt-1" href="#badge">Badge</a>
+      <a class="mt-1" href="#button">Button</a>
+      <a class="mt-1" href="#card">Card</a>
+      <a class="mt-1" href="#image">Image</a>
+      <a class="mt-1" href="#input">Input</a>
+    </aside>
+
+    <!-- main content -->
+    <div class="main">
+      <!-- Avatar Component -->
+      <div id="avatar" class="ml-1 newline">
+        <h3>Avatar</h3>
+        <div class="flex fd-c mb-1">
+          <p class="text-content">Avatar with different sizes.</p>
+          <div class="images">
+            <img class="avatar avatar-sm mr-1" src="../assets/astro.png" alt="astro" />
+            <img class="avatar avatar-md mr-1" src="../assets/astro.png" alt="astro" />
+            <img class="avatar avatar-lg mr-1" src="../assets/astro.png" alt="astro" />
+            <img class="avatar avatar-xl mr-1" src="../assets/astro.png" alt="astro" />
           </div>
-          <p class="text-content">Avatar with status on profile picture.</p>
-          <div class="flex mb-1">
-            <div class="rel mb-1">
-              <img class="avatar mr-2" src="../assets/astro.png" alt="astro" />
-              <span class="status red"></span>
-            </div>
-            <div class="rel mb-1">
-              <img class="avatar mr-2" src="../assets/astro.png" alt="astro" />
-              <span class="status green"></span>
-            </div>
-            <div class="rel mb-1">
-              <img class="avatar mr-2" src="../assets/astro.png" alt="astro" />
-              <span class="status gray"></span>
-            </div>
-            <div class="rel">
-              <img
-                class="avatar"
-                src="../assets/user-icon.svg"
-                alt="user-icon"
-              />
-              <span class="status icon-status green"></span>
-            </div>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61f96efe1e1df4001537944c"
-            style="width: 100%; height: 300px"
-            frameborder="0"
-          ></iframe>
+          <iframe src="https://www.thiscodeworks.com/embed/61f931031e1df400153793fe" style="width: 100%; height: 170px"
+            frameborder="0"></iframe>
         </div>
-        <!-- Avatar end -->
-        <!-- Alert Component -->
-        <div id="alert" class="ml-2 newline">
-          <h3>Alert</h3>
-          <p class="text-content">Alerts with different types of colors.</p>
-          <div>
-            <div class="alert alert-primary">This is Primary Alert</div>
-            <div class="alert alert-secondary">This is Secondary Alert</div>
-            <div class="alert alert-error">This is Error Alert</div>
-            <div class="alert alert-warning">This is Warning Alert</div>
-            <div class="alert alert-success">This is Success Alert</div>
+        <p class="text-content">Avatar with status on profile picture.</p>
+        <div class="flex mb-1">
+          <div class="rel mb-1">
+            <img class="avatar mr-1" src="../assets/astro.png" alt="astro" />
+            <span class="status red"></span>
           </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87"
-            style="width: 100%; height: 170px"
-            frameborder="0"
-          ></iframe>
+          <div class="rel mb-1">
+            <img class="avatar mr-1" src="../assets/astro.png" alt="astro" />
+            <span class="status green"></span>
+          </div>
+          <div class="rel mb-1">
+            <img class="avatar mr-1" src="../assets/astro.png" alt="astro" />
+            <span class="status gray"></span>
+          </div>
+          <div class="rel">
+            <img class="avatar" src="../assets/user-icon.svg" alt="user-icon" />
+            <span class="status icon-status green"></span>
+          </div>
         </div>
-        <!-- Alert end -->
-        <!-- Badge Component -->
-        <div id="badge" class="ml-2 newline">
-          <h3>Badge</h3>
-          <p class="text-content">Badge on Icon</p>
-          <div class="badge-container mb-1">
-            <img src="../assets/bell-icon.svg" alt="bell-icon" />
-            <span class="badge red">5</span>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fcbc98b57bf800152b71fe"
-            style="width: 100%; height: 144px"
-            frameborder="0"
-          ></iframe>
-          <p class="text-content">Badge on Avatar</p>
-          <div class="badge-container mb-1">
-            <img class="badge-img" src="../assets/astro.png" alt="astro" />
-            <span class="badge red">5</span>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fcbd09b57bf800152b71ff"
-            style="width: 100%; height: 144px"
-            frameborder="0"
-          ></iframe>
-        </div>
-        <!-- Badge end -->
-        <!-- Button Component -->
-        <div id="button" class="ml-2 newline pb-1 mb-1">
-          <h3>Button</h3>
-          <p class="text-content">Primary Button/ Secondary Button</p>
-          <div>
-            <button class="btn btn-primary">Primary Button</button>
-            <button class="btn btn-secondary">Secondary Button</button>
-          </div>
-          <p class="text-content">Link Button</p>
-          <div>
-            <button class="btn btn-primary-link">
-              <a href="">Primary Link Button</a>
-            </button>
-            <button class="btn btn-secondary-link">
-              <a class="btn-link" href="">Secondary Link Button</a>
-            </button>
-          </div>
-          <p class="text-content">Icon Button</p>
-          <div class="flex gap-1">
-            <button class="btn btn-icon btn-flex">
-              <img
-                class="btn-img-icon"
-                src="../assets/bell-icon.svg"
-                alt="bell-icon"
-              />
-              Hit the Button
-            </button>
-            <button class="btn btn-icon btn-flex">
-              <img
-                class="btn-img-icon"
-                src="../assets/user-icon.svg"
-                alt="user-icon"
-              />
-              Sign in
-            </button>
-          </div>
-          <p class="text-content">Floating Action Button</p>
-          <div class="mb-1 flex gap-1">
-            <button class="btn btn-float btn-flex pt-1">+</button>
-            <button class="btn btn-float pt-1">^</button>
-          </div>
-          <iframe src="https://www.thiscodeworks.com/embed/61fd2c3333c09d0015b44d78" style="width: 100%; height: 480px;" frameborder="0"></iframe>
-        </div>
-        <!-- Button end -->
-        <!-- Card Component -->
-        <div id="card" class="ml-2 mb-1 newline">
-          <h3>Card</h3>
-          <p class="text-content">Card with badge</p>
-          <div class="card-badge mb-1">
-            <div class="rel">
-              <img
-                class="img-card"
-                src="../assets/cricket/ipl.jpg"
-                alt="card-pic"
-              />
-              <div class="card-badge-msg">Coming Soon</div>
-            </div>
-            <div class="card-main">
-              <h3 class="card-title">IPL - Indian Premier League</h3>
-              <h5 class="card-author">by Ozair Khan</h5>
-            </div>
-            <p class="card-content">IPL is the best T20 league in the world.</p>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fe9159bcdcda001500593a"
-            style="width: 100%; height: 229px"
-            frameborder="0"
-          ></iframe>
-          <p class="text-content">Card with dismiss</p>
-          <div class="card-dismiss">
-            <div class="rel">
-              <img
-                class="img-card"
-                src="../assets/cricket/ipl.jpg"
-                alt="card-pic"
-              />
-              <div class="card-dismiss-pic">
-                <img src="../assets/card/cross.svg" alt="cross-icon" />
-              </div>
-            </div>
-            <div class="card-main">
-              <h3 class="card-title">IPL - Indian Premier League</h3>
-              <h5 class="card-by">by Ozair Khan</h5>
-            </div>
-            <p class="card-content">IPL is the best T20 league in the world.</p>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fe9fe7bcdcda001500593d"
-            style="width: 100%; height: 255px"
-            frameborder="0"
-          ></iframe>
-          <p class="text-content">Card with text overlay</p>
-          <div class="card-text-overlay">
-            <div class="rel">
-              <img
-                class="img-card"
-                src="../assets/cricket/ipl.jpg"
-                alt="card-pic"
-              />
-              <div class="card-text-overlay-main">
-                <h3 class="card-title">IPL - Indian Premier League</h3>
-                <h5 class="card-author">by Ozair Khan</h5>
-              </div>
-            </div>
-            <p class="card-content">IPL is the best T20 league in the world.</p>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fea58abcdcda001500593f"
-            style="width: 100%; height: 216px"
-            frameborder="0"
-          ></iframe>
-          <p class="text-content">Text only card</p>
-          <div class="card-text-only">
-            <div class="card-text-only-main">
-              <h3 class="card-title">IPL - Indian Premier League</h3>
-              <h5 class="card-author">by Ozair Khan</h5>
-            </div>
-            <p class="card-content">IPL is the best T20 league in the world.</p>
-            <p class="card-content flex gap-1">
-              Follow for more
-              <img src="../assets/card/red-heart.svg" alt="heart" />
-            </p>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fea616bcdcda0015005940"
-            style="width: 100%; height: 190px"
-            frameborder="0"
-          ></iframe>
-          <p class="text-content">Horizontal/ Vertical card</p>
-          <div class="card-horizontal">
-            <div class="rel">
-              <img
-                class="img-card-horizontal"
-                src="../assets/cricket/horizon.png"
-                alt="card-pic"
-              />
-            </div>
-            <div class="card-main">
-              <h3 class="card-title">IPL - Indian Premier League</h3>
-              <h5 class="card-author">by Ozair Khan</h5>
-            </div>
-            <p class="card-content">IPL is the best T20 league in the world.</p>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fea677bcdcda0015005941"
-            style="width: 100%; height: 216px"
-            frameborder="0"
-          ></iframe>
-          <div class="card-vertical flex">
-            <div class="rel">
-              <img
-                class="img-card"
-                src="../assets/cricket/ipl.jpg"
-                alt="card-pic"
-              />
-            </div>
-            <div class="card-main">
-              <h3 class="card-title">IPL - Indian Premier League</h3>
-              <h5 class="card-author">by Ozair Khan</h5>
-            </div>
-            <p class="card-content">IPL is the best T20 league in the world.</p>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fea6ddbcdcda0015005942"
-            style="width: 100%; height: 216px"
-            frameborder="0"
-          ></iframe>
-          <p class="text-content">Card with shadow</p>
-          <div class="card-shadow">
-            <div class="rel">
-              <img
-                class="img-card"
-                src="../assets/cricket/ipl.jpg"
-                alt="card-pic"
-              />
-            </div>
-            <div class="card-main">
-              <h3 class="card-title">IPL - Indian Premier League</h3>
-              <h5 class="card-by">by Ozair Khan</h5>
-            </div>
-            <p class="card-content">IPL is the best T20 league in the world.</p>
-          </div>
-          <iframe
-            src="https://www.thiscodeworks.com/embed/61fea727bcdcda0015005943"
-            style="width: 100%; height: 216px"
-            frameborder="0"
-          ></iframe>
-        </div>
-        <!-- Card end -->
+        <iframe src="https://www.thiscodeworks.com/embed/61f96efe1e1df4001537944c" style="width: 100%; height: 300px"
+          frameborder="0"></iframe>
       </div>
-      <!-- main class end -->
+      <!-- Avatar end -->
+      <!-- Alert Component -->
+      <div id="alert" class="ml-1 mb-1 newline">
+        <h3>Alert</h3>
+        <p class="text-content">Alerts with different types of colors.</p>
+        <div class="mb-1">
+          <div class="alert alert-primary">This is Primary Alert</div>
+          <div class="alert alert-secondary">This is Secondary Alert</div>
+          <div class="alert alert-error">This is Error Alert</div>
+          <div class="alert alert-warning">This is Warning Alert</div>
+          <div class="alert alert-success">This is Success Alert</div>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87" style="width: 100%; height: 160px;" frameborder="0"></iframe>
+      </div>
+      <!-- Alert end -->
+      <!-- Badge Component -->
+      <div id="badge" class="ml-2 newline">
+        <h3>Badge</h3>
+        <p class="text-content">Badge on Icon</p>
+        <div class="badge-container mb-1">
+          <img src="../assets/bell-icon.svg" alt="bell-icon" />
+          <span class="badge red">5</span>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fcbc98b57bf800152b71fe" style="width: 100%; height: 144px"
+          frameborder="0"></iframe>
+        <p class="text-content">Badge on Avatar</p>
+        <div class="badge-container mb-1">
+          <img class="badge-img" src="../assets/astro.png" alt="astro" />
+          <span class="badge red">5</span>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fcbd09b57bf800152b71ff" style="width: 100%; height: 144px"
+          frameborder="0"></iframe>
+      </div>
+      <!-- Badge end -->
+      <!-- Button Component -->
+      <div id="button" class="ml-1 newline pb-1 mb-1">
+        <h3>Button</h3>
+        <p class="text-content">Primary Button/ Secondary Button</p>
+        <div>
+          <button class="btn btn-primary">Primary Button</button>
+          <button class="btn btn-secondary">Secondary Button</button>
+        </div>
+        <p class="text-content">Link Button</p>
+        <div>
+          <button class="btn btn-primary-link">
+            <a href="">Primary Link Button</a>
+          </button>
+          <button class="btn btn-secondary-link">
+            <a class="btn-link" href="">Secondary Link Button</a>
+          </button>
+        </div>
+        <p class="text-content">Icon Button</p>
+        <div class="flex gap-1">
+          <button class="btn btn-icon btn-flex">
+            <img class="btn-img-icon" src="../assets/bell-icon.svg" alt="bell-icon" />
+            Hit the Button
+          </button>
+          <button class="btn btn-icon btn-flex">
+            <img class="btn-img-icon" src="../assets/user-icon.svg" alt="user-icon" />
+            Sign in
+          </button>
+        </div>
+        <p class="text-content">Floating Action Button</p>
+        <div class="mb-1 flex gap-1">
+          <button class="btn btn-float btn-flex pt-1">+</button>
+          <button class="btn btn-float pt-1">^</button>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fd2c3333c09d0015b44d78" style="width: 100%; height: 480px"
+          frameborder="0"></iframe>
+      </div>
+      <!-- Button end -->
+      <!-- Card Component -->
+      <div id="card" class="ml-2 mb-1 newline">
+        <h3>Card</h3>
+        <p class="text-content">Card with badge</p>
+        <div class="card-badge mb-1">
+          <div class="rel">
+            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+            <div class="card-badge-msg">Coming Soon</div>
+          </div>
+          <div class="card-main">
+            <h3 class="card-title">IPL - Indian Premier League</h3>
+            <h5 class="card-author">by Ozair Khan</h5>
+          </div>
+          <p class="card-content">IPL is the best T20 league in the world.</p>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fe9159bcdcda001500593a" style="width: 100%; height: 230px;" frameborder="0"></iframe>
+        <p class="text-content">Card with dismiss</p>
+        <div class="card-dismiss">
+          <div class="rel">
+            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+            <div class="card-dismiss-pic">
+              <img src="../assets/card/cross.svg" alt="cross-icon" />
+            </div>
+          </div>
+          <div class="card-main">
+            <h3 class="card-title">IPL - Indian Premier League</h3>
+            <h5 class="card-author">by Ozair Khan</h5>
+          </div>
+          <p class="card-content">IPL is the best T20 league in the world.</p>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fe9fe7bcdcda001500593d" style="width: 100%; height: 260px;" frameborder="0"></iframe>
+        <p class="text-content">Card with text overlay</p>
+        <div class="card-text-overlay">
+          <div class="rel">
+            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+            <div class="card-text-overlay-main">
+              <h3 class="card-title">IPL - Indian Premier League</h3>
+              <h5 class="card-author">by Ozair Khan</h5>
+            </div>
+          </div>
+          <p class="card-content">IPL is the best T20 league in the world.</p>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea58abcdcda001500593f" style="width: 100%; height: 230px;" frameborder="0"></iframe>
+        <p class="text-content">Text only card</p>
+        <div class="card-text-only">
+          <div class="card-text-only-main">
+            <h3 class="card-title">IPL - Indian Premier League</h3>
+            <h5 class="card-author">by Ozair Khan</h5>
+          </div>
+          <p class="card-content">IPL is the best T20 league in the world.</p>
+          <p class="card-content flex gap-1">
+            Follow for more
+            <img src="../assets/card/red-heart.svg" alt="heart" />
+          </p>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea616bcdcda0015005940" style="width: 100%; height: 200px;" frameborder="0"></iframe>
+        <p class="text-content">Horizontal/ Vertical card</p>
+        <div class="card-horizontal">
+          <div class="rel">
+            <img class="img-card-horizontal" src="../assets/cricket/horizon.png" alt="card-pic" />
+          </div>
+          <div class="card-main">
+            <h3 class="card-title">IPL - Indian Premier League</h3>
+            <h5 class="card-author">by Ozair Khan</h5>
+          </div>
+          <p class="card-content">IPL is the best T20 league in the world.</p>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea677bcdcda0015005941" style="width: 100%; height: 230px;" frameborder="0"></iframe>
+        <div class="card-vertical flex">
+          <div class="rel">
+            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+          </div>
+          <div class="card-main">
+            <h3 class="card-title">IPL - Indian Premier League</h3>
+            <h5 class="card-author">by Ozair Khan</h5>
+          </div>
+          <p class="card-content">IPL is the best T20 league in the world.</p>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea6ddbcdcda0015005942" style="width: 100%; height: 220px;" frameborder="0"></iframe>
+        <p class="text-content">Card with shadow</p>
+        <div class="card-shadow">
+          <div class="rel">
+            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+          </div>
+          <div class="card-main">
+            <h3 class="card-title">IPL - Indian Premier League</h3>
+            <h5 class="card-author">by Ozair Khan</h5>
+          </div>
+          <p class="card-content">IPL is the best T20 league in the world.</p>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea727bcdcda0015005943" style="width: 100%; height: 230px;" frameborder="0"></iframe>
+      </div>
+      <!-- Card end -->
+      <!-- Image Component -->
+      <div id="image"  class="ml-2 mb-1 newline">
+        <h3>Image</h3>
+        <p class="text-content">Responsive Image</p>
+        <div class="image-responsive">
+          <img src="https://picsum.photos/500/300" alt="picsum-image">
+        </div>
+        <p class="text-content">Round Image</p>
+        <div class="image-round">
+          <img src="https://picsum.photos/300/300" alt="picsum-image">
+        </div>
+      </div>
+
+      <!-- Image end -->
+      <!-- Input Component -->
+      <div id="input"  class="ml-2 mb-1 newline">
+        <h3>Input</h3>
+        <p class="text-content">Input Textbox</p>
+        <div class="textarea-container mb-1 box-shadow">
+          <textarea class="textarea" placeholder="Write here..."></textarea>
+          <button class="btn">Send</button>
+      </div>
+      <iframe src="https://www.thiscodeworks.com/embed/6200ece54dd44f0015f3cd9d" style="width: 100%; height: 138px;" frameborder="0"></iframe>
+        <p class="text-content">Input with style</p>
+        <div class="flex mb-1">
+          <div class="input-container box-shadow">
+            <label for="name">Name</label>
+            <input type="text" placeholder="Enter name" class="input-default" name="name" />
+            <span>Default Message</span>
+          </div>
+          <div class="input-container ml-1 box-shadow">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Enter Email" class="input-fail" name="email" />
+            <span class="text-fail">Error Message</span>
+          </div>
+          <div class="input-container ml-1 box-shadow">
+            <label for="password">Password</label>
+            <input type="password" class="input-success" placeholder="Password" />
+            <span class="text-success">Success Message</span>
+          </div>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/6200ede24dd44f0015f3cda1" style="width: 100%; height: 307px;" frameborder="0"></iframe>
+        <p class="text-content">Form error</p>
+        <form class="form-container mb-1 box-shadow">
+          <span class="text-fail">Enter correct Email and Password</span>
+
+          <input class="input-fail" type="email" name="email-id" placeholder="Enter Your Email"
+          />
+          <input class="input-fail" type="password" name="password"
+            placeholder="Enter Your Password"/>
+
+          <button class="btn red"> Log In </button>
+        </form>
+        <iframe src="https://www.thiscodeworks.com/embed/6200ee2e4dd44f0015f3cda4" style="width: 100%; height: 180px;" frameborder="0"></iframe>
+      </div>
+      <!-- Input end -->
     </div>
-    <!-- content div end -->
-  </body>
+    <!-- main class end -->
+  </div>
+  <!-- content div end -->
+</body>
+
 </html>
