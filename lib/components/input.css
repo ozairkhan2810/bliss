@@ -1,0 +1,57 @@
+.textarea-container,
+.input-container {
+  display: flex;
+  flex-direction: column;
+  background: var(--black-shade);
+  width: 50%;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.input-container {
+  background: var(--white);
+}
+
+.textarea {
+  height: 10rem;
+  width: 100%;
+  border-radius: 5px;
+  padding: 1rem;
+  outline: none;
+  background: var(--dark-gray);
+}
+
+.input-fail,
+.input-success,
+.input-default {
+  padding: 0.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-fail {
+  border: 2px solid var(--light-red);
+}
+
+.text-fail {
+  color: var(--red);
+}
+
+.input-success {
+  border: 2px solid var(--green);
+}
+.text-success {
+  color: var(--green);
+}
+
+.form-container {
+  background: var(--white);
+  padding: 1.2rem;
+  width: 20rem;
+  margin: 1rem auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
