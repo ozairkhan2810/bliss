@@ -1,0 +1,15 @@
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background: var(--blue);
+}
+
+.nav-list {
+    display: flex;
+    gap: 1.5rem;
+    padding-right: 1rem;
+}
+
+.nav-list-item {
+    color: var(--white);
+}
