@@ -1,0 +1,21 @@
+.spaced-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.list-normal {
+  list-style-type: circle;
+  padding-bottom: 1rem;
+}
+
+.text-decoration-none {
+  text-decoration: none;
+  padding-bottom: 1rem;
+}
+
+.stacked-list .list-border {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 50%;
+}
