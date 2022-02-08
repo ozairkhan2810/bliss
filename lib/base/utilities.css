@@ -102,6 +102,12 @@
   padding-right: 0.2rem;
 }
 
+.img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+}
+
 .btn-lg {
   font-size: 1.15rem;
   padding: 0.5rem 1rem;
