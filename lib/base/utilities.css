@@ -1,7 +1,8 @@
 .container {
-  max-width: 100%;
+  max-width: 52.5rem;
   width: 100%;
-  padding: 0 5rem;
+  margin: 5rem auto;
+  padding: 0 0.8rem;
 }
 
 .flex {
@@ -40,7 +41,7 @@
   margin-top: 1rem;
 }
 
-.pd-4 {
+.pt-4 {
   padding-top: 4rem;
 }
 
@@ -73,7 +74,7 @@
 }
 
 .h-8 {
-  height: 25rem;
+  height: 13rem;
 }
 
 .newline {

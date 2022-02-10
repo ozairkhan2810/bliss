@@ -74,7 +74,7 @@
 }
 
 .card-horizontal, .img-card-horizontal {
-    width: 25rem;
+    width: 100%;
 }
 
 .card-shadow {

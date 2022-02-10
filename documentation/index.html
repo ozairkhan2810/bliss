@@ -12,22 +12,27 @@
 
 <body class="light">
   <!-- nav bar -->
-  <div class="navbar container">
-    <nav class="navbar-nav">
-      <a href="../index.html" class="navbar-brand">blissUI</a>
+  <header>
+    <nav class="navbar">
+      <a href="./index.html">
+        <img class="brand" src="../assets/logo/logo.png" alt="logo" />
+      </a>
       <ul class="nav-list">
         <li class="nav-item">
-          <a href="../index.html">Home</a>
+          <a href="./documentation/index.html">Docs</a>
         </li>
         <li class="nav-item">
-          <a href="../documentation/index.html">Documentation</a>
+          <a href="https://github.com/ozairkhan2810/bliss">
+            <img src="../assets/social/github.svg" alt="github" />
+          </a>
         </li>
       </ul>
     </nav>
-  </div>
+  </header>
   <!-- content -->
-  <div class="flex rel">
+  <div class="flex rel sidebar-container">
     <!-- sidebar content -->
+    <input class="sidebar-toggle" type="checkbox">
     <aside class="sidebar flex fd-c">
       <h3 class="hd-3">Components</h3>
       <a class="mt-1" href="#avatar">Avatar</a>
@@ -43,7 +48,7 @@
     </aside>
 
     <!-- main content -->
-    <div class="main">
+    <div class="main container">
       <!-- Avatar Component -->
       <div id="avatar" class="ml-1 newline">
         <h3>Avatar</h3>
@@ -96,7 +101,7 @@
       </div>
       <!-- Alert end -->
       <!-- Badge Component -->
-      <div id="badge" class="ml-2 newline">
+      <div id="badge" class="ml-1 newline">
         <h3>Badge</h3>
         <p class="text-content">Badge on Icon</p>
         <div class="badge-container mb-1">
@@ -253,7 +258,7 @@
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/6201721ded723a001551c02f" style="width: 100%; height: 135px;" frameborder="0"></iframe>
         <p class="text-content">Round Image</p>
-        <div class="image-round mb-1">
+        <div class="image-round image-responsive mb-1">
           <img src="https://picsum.photos/300/300" alt="picsum-image">
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/62017258ed723a001551c030" style="width: 100%; height: 135px;" frameborder="0"></iframe>
@@ -269,7 +274,7 @@
       </div>
       <iframe src="https://www.thiscodeworks.com/embed/6200ece54dd44f0015f3cd9d" style="width: 100%; height: 138px;" frameborder="0"></iframe>
         <p class="text-content">Input with style</p>
-        <div class="flex mb-1">
+        <div class="flex mb-1 inp-resp">
           <div class="input-container box-shadow">
             <label for="name">Name</label>
             <input type="text" placeholder="Enter name" class="input-default" name="name" />
@@ -362,7 +367,7 @@
       <div id="navigation" class="ml-1 mb-1 newline">
         <h3>Navigation</h3>
         <p class="text-content">Desktop navigation</p>   
-        <div class="navigation mb-1">
+        <div class="navigation mb-1 inp-resp">
           <ul class="nav-list">
             <li class="nav-list-item">Logo</li>
           </ul>

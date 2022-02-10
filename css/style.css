@@ -1,35 +1,39 @@
 /* navbar styling for landing page and documentation page */
-.navbar {
+header {
+  width: 100%;
   z-index: 10;
-  background: var(--background-dark);
   position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  background: var(--background-dark);
 }
 
-.navbar-nav {
+.navbar {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
 }
 
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.navbar-brand:hover {
-  text-decoration: none;
+.brand {
+  width: 120px;
 }
 
 .nav-list {
-  display: flex;
+  align-items: center;
 }
 
-.nav-item a {
+.nav-item {
   padding: 0.4rem 0.8rem;
   margin-left: 0.5rem;
 }
 
-.nav-item a:hover {
+.nav-item a {
+  text-decoration: none;
+}
+
+.nav-item:hover {
   background: var(--gray-yellow);
   border-radius: 3px;
   text-decoration: none;
@@ -60,14 +64,16 @@
 }
 
 /* sidebar styling for documentation page */
+
 .sidebar {
-  margin-top: 3rem;
+  margin-top: 5rem;
   width: 12.5rem;
   padding: 0 1rem;
   position: fixed;
-  height: 100vh;
   z-index: 5;
 }
+
+
 
 .sidebar a {
   border-bottom: 2px solid var(--dark-yellow);
@@ -80,9 +86,77 @@
   font-size: 1.2rem;
 }
 
+/* main landing page */
+.main-landing {
+  display: flex;
+  justify-content: center;
+  gap: 10rem;
+  padding-top: 10rem;
+}
+
 /* main content styling for documentation page */
 .main {
   width: 65%;
   margin-left: 13.5rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .sidebar {
+    width: 100%;
+    /* display: block; */
+    position: relative;
+    height: auto;
+    margin-top: 0;
+  }
+
+  .sidebar-container {
+    display: block;
+  }
+
+  .sidebar-toggle {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .sidebar-toggle + .sidebar {
+    transform: translateY(-100%);
+    transition: transform 200ms linear;
+  }
+  
+  .sidebar-toggle:checked + .sidebar {
+    transform: translateY(0);
+  }
+
+  .brand {
+    width: 100px;
+  }
+
+  .nav-item {
+    padding: 0;
+    margin-left: 0.2rem;
+  }
+
+  .nav-item:first-of-type {
+    margin-top: -8px;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+
+  .nav-list {
+    display: flex;
+  }
+
+  .nav-item a {
+    padding: 0.4rem 0.8rem;
+    margin-left: 0.5rem;
+  }
+
+  .inp-resp {
+    flex-direction: column;
+  }
 }
