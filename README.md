@@ -27,7 +27,8 @@ Insert gif or video link to demo
  8. Text-Utilities
  9. List
  10. Navigation
- Will update with few more
+ 
+ - Will update with few more
 
 ## Installation
 
@@ -40,6 +41,8 @@ Just add following lines of code in `<head>` tag of your html file.
 <link rel="stylesheet" href="https://bliss-ui.netlify.app/lib/index.css" />
 
 ```
+
+For importing in CSS follow as below
 
 Add following lines of code in CSS file of your stylesheet.
 
