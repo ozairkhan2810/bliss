@@ -73,8 +73,12 @@
     padding: 0 1rem;
 }
 
-.card-horizontal, .img-card-horizontal {
-    width: 25rem;
+.card-horizontal{
+  width: 60%;
+}
+
+.img-card-horizontal {
+    width: 100%;
 }
 
 .card-shadow {

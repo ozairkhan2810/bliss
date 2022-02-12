@@ -1,88 +1,137 @@
 /* navbar styling for landing page and documentation page */
-.navbar {
+header {
+  width: 100%;
   z-index: 10;
-  background: var(--background-dark);
   position: fixed;
+  top: 0;
+  left: 0;
+  margin-top: 0;
+  background: var(--background-dark);
 }
 
-.navbar-nav {
-  display: flex;
-  justify-content: space-between;
+.navbar {
   align-items: center;
+  justify-content: space-between;
+  margin: 0 1rem;
 }
 
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
+.brand {
+  width: 7.5rem;
 }
 
-.navbar-brand:hover {
-  text-decoration: none;
-}
-
-.nav-list {
-  display: flex;
-}
-
-.nav-item a {
-  padding: 0.4rem 0.8rem;
-  margin-left: 0.5rem;
-}
-
-.nav-item a:hover {
-  background: var(--gray-yellow);
-  border-radius: 3px;
-  text-decoration: none;
-  transition: background 200ms linear;
+/* main landing page */
+.main-landing {
+  width: 90%;
+  height: 100vh;
+  margin: 0 auto;
 }
 
 /* button styling for landing page */
-.btn-lp {
-  padding: 0.4rem 0.8rem;
-  font-size: 1rem;
-  font-weight: 500;
-  border: none;
-  border-radius: 5px;
-}
-
 .btn-primary-lp {
-  background: var(--light-blue);
+  background: var(--red);
+  color: var(--white);
 }
 
 .btn-secondary-lp {
-  color: var(--blue-dim);
-  border: 1px solid var(--blue-dim);
+  color: var(--light-red);
+  border: 1px solid var(--light-red);
 }
 
-.btn-lg {
-  font-size: 1.15rem;
-  padding: 0.5rem 1rem;
+.btn-primary-lp:hover,
+.btn-secondary-lp:hover {
+  box-shadow: 2px 2px 10px var(--gray);
+}
+
+.btn-secondary-lp:hover {
+  color: var(--white);
+  background: var(--red);
 }
 
 /* sidebar styling for documentation page */
 .sidebar {
-  margin-top: 3rem;
+  margin-top: 5rem;
   width: 12.5rem;
-  padding: 0 1rem;
   position: fixed;
-  height: 100vh;
+  height: 90vh;
+  background: var(--dark-yellow);
   z-index: 5;
 }
 
-.sidebar a {
-  border-bottom: 2px solid var(--dark-yellow);
+.sidebar li {
+  border-bottom: 2px solid var(--white);
   padding-bottom: 0.5rem;
-  font-size: 1.1rem;
+  margin-top: 1rem;
+  font-size: 1.2rem;
 }
 
-.hd-3 {
-  margin: 1rem 0 0.2rem;
-  font-size: 1.2rem;
+.sidebar li a:hover {
+  padding-left: 1rem;
 }
 
 /* main content styling for documentation page */
 .main {
-  width: 65%;
+  width: 80%;
   margin-left: 13.5rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
+
+/* documentation */
+#text-utils > div {
+  width: 65%;
+}
+
+ul.stacked-list {
+  width: 60%;
+}
+
+.text-content {
+  font-weight: 500;
+}
+
+.ham {
+  display: none;
+  height: 1.5rem;
+  margin-left: -10px;
+}
+
+@media only screen and (max-width: 790px) {
+
+  .brand {
+    width: 6rem;
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+  .main {
+    width: 95%;
+    margin-left: 0;
+  }
+
+  .home {
+    display: none;
+  }
+
+  .navigation {
+    flex-direction: column;
+  }
+
+  .ham {
+    display: inline-block;
+    border-radius: 0;
+  }
+
+  .av-list img{
+    margin-right: 0;
+  }
+
+  .btn {
+    margin-top: 0.2rem;
+  }
+
+  ul.stacked-list, .stacked-list .list-border {
+    width: 100%;
+  }
+} 
+

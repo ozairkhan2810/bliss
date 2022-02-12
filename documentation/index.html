@@ -12,34 +12,47 @@
 
 <body class="light">
   <!-- nav bar -->
-  <div class="navbar container">
-    <nav class="navbar-nav">
-      <a href="../index.html" class="navbar-brand">blissUI</a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a href="../index.html">Home</a>
+  <header>
+    <nav class="navbar flex">
+      <div class="flex align-items-center">
+        
+          <img class="img ham" src="../assets/ham.svg" alt="hamburger">
+    
+        <a href="../index.html">
+          <img class="brand" src="../assets/logo/logo.png" alt="logo" />
+        </a>
+      </div>
+      <ul class="flex align-items-center gap-2">
+        <li class="home px-1">
+          <a class="bold-500" href="../index.html">Home</a>
         </li>
-        <li class="nav-item">
-          <a href="../documentation/index.html">Documentation</a>
+        <li class="px-1">
+          <a href="https://github.com/ozairkhan2810/bliss">
+            <img src="../assets/social/github.svg" alt="github" />
+          </a>
         </li>
       </ul>
     </nav>
-  </div>
+  </header>
   <!-- content -->
-  <div class="flex rel">
+  <div class="flex">
     <!-- sidebar content -->
-    <aside class="sidebar flex fd-c">
-      <h3 class="hd-3">Components</h3>
-      <a class="mt-1" href="#avatar">Avatar</a>
-      <a class="mt-1" href="#alert">Alert</a>
-      <a class="mt-1" href="#badge">Badge</a>
-      <a class="mt-1" href="#button">Button</a>
-      <a class="mt-1" href="#card">Card</a>
-      <a class="mt-1" href="#image">Image</a>
-      <a class="mt-1" href="#input">Input</a>
-      <a class="mt-1" href="#text-utils">Text Utilities</a>
-      <a class="mt-1" href="#list">List</a>
-      <a class="mt-1" href="#navigation">Navigation</a>
+    <!-- <input class="sidebar-toggle" type="checkbox"> -->
+    <aside class="sidebar flex flex-column px-1 box-shadow">
+      <h3 class="font-size-large">Components</h3>
+      <ul class="sidebar-list">
+        <li class="nav-item"><a href="#avatar">Avatar</a></li>
+        <li class="nav-item"><a href="#alert">Alert</a></li>
+        <li class="nav-item"><a href="#badge">Badge</a></li>
+        <li class="nav-item"><a href="#button">Button</a></li>
+        <li class="nav-item"><a href="#card">Card</a></li>
+        <li class="nav-item"><a href="#image">Image</a></li>
+        <li class="nav-item"><a href="#input">Input</a></li>
+        <li class="nav-item"><a href="#text-utils">Text Utilities</a></li>
+        <li class="nav-item"><a href="#list">List</a></li>
+        <li class="nav-item"><a href="#navigation">Navigation</a></li>
+      </ul>
+        
     </aside>
 
     <!-- main content -->
@@ -47,9 +60,9 @@
       <!-- Avatar Component -->
       <div id="avatar" class="ml-1 newline">
         <h3>Avatar</h3>
-        <div class="flex fd-c mb-1">
+        <div class="flex flex-column mb-1">
           <p class="text-content">Avatar with different sizes.</p>
-          <div class="images">
+          <div class="av-list">
             <img class="avatar avatar-sm mr-1" src="../assets/astro.png" alt="astro" />
             <img class="avatar avatar-md mr-1" src="../assets/astro.png" alt="astro" />
             <img class="avatar avatar-lg mr-1" src="../assets/astro.png" alt="astro" />
@@ -92,11 +105,12 @@
           <div class="alert alert-warning">This is Warning Alert</div>
           <div class="alert alert-success">This is Success Alert</div>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87" style="width: 100%; height: 160px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87" style="width: 100%; height: 160px;"
+          frameborder="0"></iframe>
       </div>
       <!-- Alert end -->
       <!-- Badge Component -->
-      <div id="badge" class="ml-2 newline">
+      <div id="badge" class="ml-1 newline">
         <h3>Badge</h3>
         <p class="text-content">Badge on Icon</p>
         <div class="badge-container mb-1">
@@ -152,7 +166,7 @@
       </div>
       <!-- Button end -->
       <!-- Card Component -->
-      <div id="card" class="ml-2 mb-1 newline">
+      <div id="card" class="ml-1 pb-3 newline">
         <h3>Card</h3>
         <p class="text-content">Card with badge</p>
         <div class="card-badge mb-1">
@@ -166,7 +180,8 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fe9159bcdcda001500593a" style="width: 100%; height: 230px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/61fe9159bcdcda001500593a" style="width: 100%; height: 230px;"
+          frameborder="0"></iframe>
         <p class="text-content">Card with dismiss</p>
         <div class="card-dismiss">
           <div class="rel">
@@ -181,7 +196,8 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fe9fe7bcdcda001500593d" style="width: 100%; height: 260px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/61fe9fe7bcdcda001500593d" style="width: 100%; height: 260px;"
+          frameborder="0"></iframe>
         <p class="text-content">Card with text overlay</p>
         <div class="card-text-overlay">
           <div class="rel">
@@ -193,7 +209,8 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea58abcdcda001500593f" style="width: 100%; height: 230px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea58abcdcda001500593f" style="width: 100%; height: 230px;"
+          frameborder="0"></iframe>
         <p class="text-content">Text only card</p>
         <div class="card-text-only">
           <div class="card-text-only-main">
@@ -206,7 +223,8 @@
             <img src="../assets/card/red-heart.svg" alt="heart" />
           </p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea616bcdcda0015005940" style="width: 100%; height: 200px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea616bcdcda0015005940" style="width: 100%; height: 200px;"
+          frameborder="0"></iframe>
         <p class="text-content">Horizontal/ Vertical card</p>
         <div class="card-horizontal">
           <div class="rel">
@@ -218,7 +236,8 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea677bcdcda0015005941" style="width: 100%; height: 230px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea677bcdcda0015005941" style="width: 100%; height: 230px;"
+          frameborder="0"></iframe>
         <div class="card-vertical flex">
           <div class="rel">
             <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
@@ -229,7 +248,8 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea6ddbcdcda0015005942" style="width: 100%; height: 220px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea6ddbcdcda0015005942" style="width: 100%; height: 220px;"
+          frameborder="0"></iframe>
         <p class="text-content">Card with shadow</p>
         <div class="card-shadow">
           <div class="rel">
@@ -241,41 +261,45 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea727bcdcda0015005943" style="width: 100%; height: 230px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/61fea727bcdcda0015005943" style="width: 100%; height: 230px;"
+          frameborder="0"></iframe>
       </div>
       <!-- Card end -->
       <!-- Image Component -->
-      <div id="image"  class="ml-2 mb-1 newline">
+      <div id="image" class="ml-1 mb-1 newline">
         <h3>Image</h3>
         <p class="text-content">Responsive Image</p>
         <div class="image-responsive mb-1">
-          <img src="https://picsum.photos/500/300" alt="picsum-image">
+          <img src="https://picsum.photos/400/200" alt="picsum-image">
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6201721ded723a001551c02f" style="width: 100%; height: 135px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/6201721ded723a001551c02f" style="width: 100%; height: 135px;"
+          frameborder="0"></iframe>
         <p class="text-content">Round Image</p>
-        <div class="image-round mb-1">
-          <img src="https://picsum.photos/300/300" alt="picsum-image">
+        <div class="image-round">
+          <img src="https://picsum.photos/200/200" alt="picsum-image">
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/62017258ed723a001551c030" style="width: 100%; height: 135px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/62017258ed723a001551c030" style="width: 100%; height: 135px;"
+          frameborder="0"></iframe>
       </div>
       <!-- Image end -->
       <!-- Input Component -->
-      <div id="input"  class="ml-2 mb-1 newline">
+      <div id="input" class="ml-1 mb-1 newline">
         <h3>Input</h3>
         <p class="text-content">Input Textbox</p>
         <div class="textarea-container mb-1 box-shadow">
           <textarea class="textarea" placeholder="Write here..."></textarea>
           <button class="btn">Send</button>
-      </div>
-      <iframe src="https://www.thiscodeworks.com/embed/6200ece54dd44f0015f3cd9d" style="width: 100%; height: 138px;" frameborder="0"></iframe>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/6200ece54dd44f0015f3cd9d" style="width: 100%; height: 138px;"
+          frameborder="0"></iframe>
         <p class="text-content">Input with style</p>
-        <div class="flex mb-1">
-          <div class="input-container box-shadow">
+        <div class="flex flex-column mb-1 inp-resp">
+          <div class="input-container ml-1 mb-1 box-shadow">
             <label for="name">Name</label>
             <input type="text" placeholder="Enter name" class="input-default" name="name" />
             <span>Default Message</span>
           </div>
-          <div class="input-container ml-1 box-shadow">
+          <div class="input-container ml-1 mb-1 box-shadow">
             <label for="email">Email</label>
             <input type="email" placeholder="Enter Email" class="input-fail" name="email" />
             <span class="text-fail">Error Message</span>
@@ -286,22 +310,24 @@
             <span class="text-success">Success Message</span>
           </div>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6200ede24dd44f0015f3cda1" style="width: 100%; height: 307px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/6200ede24dd44f0015f3cda1" style="width: 100%; height: 307px;"
+          frameborder="0"></iframe>
         <p class="text-content">Form error</p>
         <form class="form-container mb-1 box-shadow">
           <span class="text-fail">Enter correct Email and Password</span>
-          <input class="input-fail" type="email" name="email-id" placeholder="Enter Your Email"/>
-          <input class="input-fail" type="password" name="password" placeholder="Enter Your Password"/>
+          <input class="input-fail" type="email" name="email-id" placeholder="Enter Your Email" />
+          <input class="input-fail" type="password" name="password" placeholder="Enter Your Password" />
           <button class="btn red"> Log In </button>
         </form>
-        <iframe src="https://www.thiscodeworks.com/embed/6200ee2e4dd44f0015f3cda4" style="width: 100%; height: 180px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/6200ee2e4dd44f0015f3cda4" style="width: 100%; height: 180px;"
+          frameborder="0"></iframe>
       </div>
       <!-- Input end -->
       <!-- Text utils Component -->
-      <div id="text-utils" class="ml-2 mb-1 newline">
+      <div id="text-utils" class="ml-1 mb-1 newline">
         <h3>Text utils</h3>
         <p class="text-content">Headings</p>
-        <div class="box-shadow flex fd-c align-items">
+        <div class="box-shadow flex flex-column align-items">
           <h1 class="heading-1">This is h1 heading</h1>
           <h2 class="heading-2">This is h2 heading</h2>
           <h3 class="heading-3">This is h3 heading</h3>
@@ -321,13 +347,14 @@
         <div class="box-shadow p-1 mb-1">
           <p class="center-text">This is center text</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6202473ded723a001551c17c" style="width: 100%; height: 294px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/6202473ded723a001551c17c" style="width: 100%; height: 294px;"
+          frameborder="0"></iframe>
       </div>
       <!-- Text utils end -->
       <!-- List Component -->
-      <div id="list" class="ml-2 mb-1 newline">
+      <div id="list" class="ml-1 mb-1 newline">
         <h3>List</h3>
-        <p class="text-content">Spaced Lists</p>    
+        <p class="text-content">Spaced Lists</p>
         <div class="p-1 flex">
           <ul class="spaced-list box-shadow ml-1 p-1 pl-2">
             <li class="list-normal px-1">Item 1</li>
@@ -339,13 +366,14 @@
             <li class="text-decoration-none px-1">Item 2</li>
             <li class="text-decoration-none px-1">Item 3</li>
           </ul>
-        </div> 
-        <iframe src="https://www.thiscodeworks.com/embed/62027231234b8a0015700b8d" style="width: 100%; height: 229px;" frameborder="0"></iframe>
-        <p class="text-content">Stacked List</p>    
-        <div class="box-shadow">
-          <ul class="stacked-list p-1">
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/62027231234b8a0015700b8d" style="width: 100%; height: 229px;"
+          frameborder="0"></iframe>
+        <p class="text-content">Stacked List</p>
+        
+          <ul class="stacked-list p-1 box-shadow">
             <li class="list-border px-1">
-              <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img"> 
+              <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img">
               <span>Friend 1 commented on your post</span></li>
             <li class="list-border px-1">
               <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img">
@@ -354,15 +382,16 @@
               <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img">
               <span>Friend 3 sent Friend request</span></li>
           </ul>
-        </div>   
-        <iframe src="https://www.thiscodeworks.com/embed/62027373234b8a0015700b94" style="width: 100%; height: 294px;" frameborder="0"></iframe>
+        
+        <iframe src="https://www.thiscodeworks.com/embed/62027373234b8a0015700b94" style="width: 100%; height: 294px;"
+          frameborder="0"></iframe>
       </div>
       <!-- List end -->
       <!-- Navigation Component -->
       <div id="navigation" class="ml-1 mb-1 newline">
         <h3>Navigation</h3>
-        <p class="text-content">Desktop navigation</p>   
-        <div class="navigation mb-1">
+        <p class="text-content">Desktop navigation</p>
+        <div class="navigation mb-1 inp-resp">
           <ul class="nav-list">
             <li class="nav-list-item">Logo</li>
           </ul>
@@ -375,13 +404,26 @@
             <li class="nav-list-item">Cart</li>
           </ul>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6202bbe6234b8a0015700be7" style="width: 100%; height: 255px;" frameborder="0"></iframe>
+        <iframe src="https://www.thiscodeworks.com/embed/6202bbe6234b8a0015700be7" style="width: 100%; height: 255px;"
+          frameborder="0"></iframe>
       </div>
       <!-- Navigation end -->
     </div>
     <!-- main class end -->
   </div>
   <!-- content div end -->
+  <!-- JS for hamburger onclick -->
+  <script>
+    document.querySelector(".ham").addEventListener("click", () => {
+      document.querySelector(".sidebar").style.display = "block";
+      document.querySelector(".main").addEventListener("click", () => {
+        document.querySelector(".sidebar").style.display = "none";
+      })
+    });
+    document.querySelector(".sidebar-list").addEventListener("click", () => {
+      document.querySelector(".sidebar").style.display = "none";
+    })
+  </script>
 </body>
 
 </html>
