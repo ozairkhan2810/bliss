@@ -133,5 +133,9 @@ ul.stacked-list {
   ul.stacked-list, .stacked-list .list-border {
     width: 100%;
   }
+
+  .hidden {
+    display: none
+  }
 } 
 
