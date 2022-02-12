@@ -42,7 +42,9 @@ Just add following lines of code in `<head>` tag of your html file.
 
 ```
 
-For importing in CSS follow as below
+### OR
+
+Import in CSS as below
 
 Add following lines of code in CSS file of your stylesheet.
 
