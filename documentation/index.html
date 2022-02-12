@@ -38,7 +38,7 @@
   <div class="flex">
     <!-- sidebar content -->
     <!-- <input class="sidebar-toggle" type="checkbox"> -->
-    <aside class="sidebar flex flex-column px-1 box-shadow">
+    <aside class="sidebar hidden flex flex-column px-1 box-shadow">
       <h3 class="font-size-large">Components</h3>
       <ul class="sidebar-list">
         <li class="nav-item"><a href="#avatar">Avatar</a></li>
@@ -416,13 +416,11 @@
   <script>
     document.querySelector(".ham").addEventListener("click", () => {
       document.querySelector(".sidebar").style.display = "block";
-      document.querySelector(".main").addEventListener("click", () => {
-        document.querySelector(".sidebar").style.display = "none";
-      })
     });
-    document.querySelector(".sidebar-list").addEventListener("click", () => {
+    document.querySelectorAll(".nav-item").forEach((e) => {
+      e.addEventListener("click", () => {
       document.querySelector(".sidebar").style.display = "none";
-    })
+    })})
   </script>
 </body>
 
