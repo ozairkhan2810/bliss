@@ -1,4 +1,4 @@
-# Falcon UI
+# Bliss UI
 
 A lightweight, easy to use and fully customizable CSS component library
 
@@ -42,4 +42,4 @@ Just add following lines of code in `<head>` tag of your html file.
 ```
 ## Author
 
-- [@ozairkhan2810](https://github.com/ozairkhan2810)
+[@ozairkhan2810](https://github.com/ozairkhan2810)
