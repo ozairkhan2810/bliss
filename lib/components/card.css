@@ -73,7 +73,11 @@
     padding: 0 1rem;
 }
 
-.card-horizontal, .img-card-horizontal {
+.card-horizontal{
+  width: 60%;
+}
+
+.img-card-horizontal {
     width: 100%;
 }
 
