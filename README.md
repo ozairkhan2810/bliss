@@ -40,6 +40,15 @@ Just add following lines of code in `<head>` tag of your html file.
 <link rel="stylesheet" href="https://bliss-ui.netlify.app/lib/index.css" />
 
 ```
+
+Add following lines of code in CSS file of your stylesheet.
+
+```bash 
+
+@import url("https://bliss-ui.netlify.app/lib/index.css");
+
+```
+
 ## Author
 
 [@ozairkhan2810](https://github.com/ozairkhan2810)
