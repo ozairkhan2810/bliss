@@ -1,18 +1,18 @@
 .light {
   --background-dark: #f5e9b7;
-  --gray-yellow:  #ebdbb2;
-  --black-shade:  #282828;
+  --gray-yellow: #ebdbb2;
+  --black-shade: #282828;
 
   --white: #ffffff;
-  --gray:   #928374;
+  --gray: #928374;
   --red: #ed1f27;
-  --green:  #79740e;
+  --green: #79740e;
   --yellow: #b57614;
-  --blue:   #076678;
+  --blue: #076678;
 
-  --light-red: #e59a9d;
-  --light-green:  #98971a;
-  --light-blue:   #458598;
+  --light-red: #ff6767;
+  --light-green: #98971a;
+  --light-blue: #458598;
 
   --dark-yellow: #f3e6b0;
   --dark-gray: #c5b2b2;

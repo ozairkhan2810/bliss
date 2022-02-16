@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Documentation | blissUI</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="../bliss.css" />
   <link rel="stylesheet" href="../css/style.css" />
 </head>
@@ -15,9 +16,7 @@
   <header>
     <nav class="navbar flex">
       <div class="flex align-items-center">
-        
-          <img class="img ham" src="../assets/ham.svg" alt="hamburger">
-    
+        <span class="material-icons ham"> menu </span>
         <a href="../index.html">
           <img class="brand" src="../assets/logo/logo.png" alt="logo" />
         </a>
@@ -52,7 +51,6 @@
         <li class="nav-item"><a href="#list">List</a></li>
         <li class="nav-item"><a href="#navigation">Navigation</a></li>
       </ul>
-        
     </aside>
 
     <!-- main content -->
@@ -75,19 +73,19 @@
         <div class="flex mb-1">
           <div class="rel mb-1">
             <img class="avatar mr-1" src="../assets/astro.png" alt="astro" />
-            <span class="status red"></span>
+            <span class="status bg-red"></span>
           </div>
           <div class="rel mb-1">
             <img class="avatar mr-1" src="../assets/astro.png" alt="astro" />
-            <span class="status green"></span>
+            <span class="status bg-green"></span>
           </div>
           <div class="rel mb-1">
             <img class="avatar mr-1" src="../assets/astro.png" alt="astro" />
-            <span class="status gray"></span>
+            <span class="status bg-gray"></span>
           </div>
           <div class="rel">
-            <img class="avatar" src="../assets/user-icon.svg" alt="user-icon" />
-            <span class="status icon-status green"></span>
+            <span class="material-icons font-size-5"> account_circle </span>
+            <span class="status icon-status bg-green"></span>
           </div>
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/61f96efe1e1df4001537944c" style="width: 100%; height: 300px"
@@ -105,7 +103,7 @@
           <div class="alert alert-warning">This is Warning Alert</div>
           <div class="alert alert-success">This is Success Alert</div>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87" style="width: 100%; height: 160px;"
+        <iframe src="https://www.thiscodeworks.com/embed/61fbefb06ab14d0015c32d87" style="width: 100%; height: 160px"
           frameborder="0"></iframe>
       </div>
       <!-- Alert end -->
@@ -114,15 +112,15 @@
         <h3>Badge</h3>
         <p class="text-content">Badge on Icon</p>
         <div class="badge-container mb-1">
-          <img src="../assets/bell-icon.svg" alt="bell-icon" />
-          <span class="badge red">5</span>
+          <span class="material-icons black"> notifications </span>
+          <span class="badge bg-red">5</span>
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/61fcbc98b57bf800152b71fe" style="width: 100%; height: 144px"
           frameborder="0"></iframe>
         <p class="text-content">Badge on Avatar</p>
         <div class="badge-container mb-1">
           <img class="badge-img" src="../assets/astro.png" alt="astro" />
-          <span class="badge red">5</span>
+          <span class="badge bg-red">5</span>
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/61fcbd09b57bf800152b71ff" style="width: 100%; height: 144px"
           frameborder="0"></iframe>
@@ -131,6 +129,11 @@
       <!-- Button Component -->
       <div id="button" class="ml-1 newline pb-1 mb-1">
         <h3>Button</h3>
+        <p>
+          Buttons are the most common and most important part of a web app
+          that allows you to navigate from one page to another, perform
+          certain actions etc.
+        </p>
         <p class="text-content">Primary Button/ Secondary Button</p>
         <div>
           <button class="btn btn-primary">Primary Button</button>
@@ -142,26 +145,30 @@
             <a href="">Primary Link Button</a>
           </button>
           <button class="btn btn-secondary-link">
-            <a class="btn-link" href="">Secondary Link Button</a>
+            <a href="">Secondary Link Button</a>
           </button>
         </div>
         <p class="text-content">Icon Button</p>
-        <div class="flex gap-1">
-          <button class="btn btn-icon btn-flex">
-            <img class="btn-img-icon" src="../assets/bell-icon.svg" alt="bell-icon" />
-            Hit the Button
+        <div>
+          <button class="btn btn-primary-icon btn-flex">
+            <span class="material-icons white"> account_circle </span>
+            Primary Icon Button
           </button>
-          <button class="btn btn-icon btn-flex">
-            <img class="btn-img-icon" src="../assets/user-icon.svg" alt="user-icon" />
-            Sign in
+          <button class="btn btn-secondary-icon btn-flex">
+            <span class="material-icons notifications"> notifications </span>
+            Secondary Icon Button
           </button>
         </div>
         <p class="text-content">Floating Action Button</p>
-        <div class="mb-1 flex gap-1">
-          <button class="btn btn-float btn-flex pt-1">+</button>
-          <button class="btn btn-float pt-1">^</button>
+        <div class="mb-1">
+          <button class="btn btn-float">
+            <span class="material-icons white"> add </span>
+          </button>
+          <button class="btn btn-float">
+            <span class="material-icons white"> arrow_upward </span>
+          </button>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fd2c3333c09d0015b44d78" style="width: 100%; height: 480px"
+        <iframe src="https://www.thiscodeworks.com/embed/6208fd33d9ba1100151e6cd0" style="width: 100%; height: 463px"
           frameborder="0"></iframe>
       </div>
       <!-- Button end -->
@@ -180,7 +187,7 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fe9159bcdcda001500593a" style="width: 100%; height: 230px;"
+        <iframe src="https://www.thiscodeworks.com/embed/61fe9159bcdcda001500593a" style="width: 100%; height: 230px"
           frameborder="0"></iframe>
         <p class="text-content">Card with dismiss</p>
         <div class="card-dismiss">
@@ -196,7 +203,7 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fe9fe7bcdcda001500593d" style="width: 100%; height: 260px;"
+        <iframe src="https://www.thiscodeworks.com/embed/61fe9fe7bcdcda001500593d" style="width: 100%; height: 260px"
           frameborder="0"></iframe>
         <p class="text-content">Card with text overlay</p>
         <div class="card-text-overlay">
@@ -209,7 +216,7 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea58abcdcda001500593f" style="width: 100%; height: 230px;"
+        <iframe src="https://www.thiscodeworks.com/embed/61fea58abcdcda001500593f" style="width: 100%; height: 230px"
           frameborder="0"></iframe>
         <p class="text-content">Text only card</p>
         <div class="card-text-only">
@@ -223,7 +230,7 @@
             <img src="../assets/card/red-heart.svg" alt="heart" />
           </p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea616bcdcda0015005940" style="width: 100%; height: 200px;"
+        <iframe src="https://www.thiscodeworks.com/embed/61fea616bcdcda0015005940" style="width: 100%; height: 200px"
           frameborder="0"></iframe>
         <p class="text-content">Horizontal/ Vertical card</p>
         <div class="card-horizontal">
@@ -236,7 +243,7 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea677bcdcda0015005941" style="width: 100%; height: 230px;"
+        <iframe src="https://www.thiscodeworks.com/embed/61fea677bcdcda0015005941" style="width: 100%; height: 230px"
           frameborder="0"></iframe>
         <div class="card-vertical flex">
           <div class="rel">
@@ -248,7 +255,7 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea6ddbcdcda0015005942" style="width: 100%; height: 220px;"
+        <iframe src="https://www.thiscodeworks.com/embed/61fea6ddbcdcda0015005942" style="width: 100%; height: 220px"
           frameborder="0"></iframe>
         <p class="text-content">Card with shadow</p>
         <div class="card-shadow">
@@ -261,7 +268,7 @@
           </div>
           <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea727bcdcda0015005943" style="width: 100%; height: 230px;"
+        <iframe src="https://www.thiscodeworks.com/embed/61fea727bcdcda0015005943" style="width: 100%; height: 230px"
           frameborder="0"></iframe>
       </div>
       <!-- Card end -->
@@ -270,15 +277,15 @@
         <h3>Image</h3>
         <p class="text-content">Responsive Image</p>
         <div class="image-responsive mb-1">
-          <img src="https://picsum.photos/400/200" alt="picsum-image">
+          <img src="https://picsum.photos/400/200" alt="picsum-image" />
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6201721ded723a001551c02f" style="width: 100%; height: 135px;"
+        <iframe src="https://www.thiscodeworks.com/embed/6201721ded723a001551c02f" style="width: 100%; height: 135px"
           frameborder="0"></iframe>
         <p class="text-content">Round Image</p>
         <div class="image-round">
-          <img src="https://picsum.photos/200/200" alt="picsum-image">
+          <img src="https://picsum.photos/200/200" alt="picsum-image" />
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/62017258ed723a001551c030" style="width: 100%; height: 135px;"
+        <iframe src="https://www.thiscodeworks.com/embed/62017258ed723a001551c030" style="width: 100%; height: 135px"
           frameborder="0"></iframe>
       </div>
       <!-- Image end -->
@@ -290,7 +297,7 @@
           <textarea class="textarea" placeholder="Write here..."></textarea>
           <button class="btn">Send</button>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6200ece54dd44f0015f3cd9d" style="width: 100%; height: 138px;"
+        <iframe src="https://www.thiscodeworks.com/embed/6200ece54dd44f0015f3cd9d" style="width: 100%; height: 138px"
           frameborder="0"></iframe>
         <p class="text-content">Input with style</p>
         <div class="flex flex-column mb-1 inp-resp">
@@ -310,16 +317,16 @@
             <span class="text-success">Success Message</span>
           </div>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6200ede24dd44f0015f3cda1" style="width: 100%; height: 307px;"
+        <iframe src="https://www.thiscodeworks.com/embed/6200ede24dd44f0015f3cda1" style="width: 100%; height: 307px"
           frameborder="0"></iframe>
         <p class="text-content">Form error</p>
         <form class="form-container mb-1 box-shadow">
           <span class="text-fail">Enter correct Email and Password</span>
           <input class="input-fail" type="email" name="email-id" placeholder="Enter Your Email" />
           <input class="input-fail" type="password" name="password" placeholder="Enter Your Password" />
-          <button class="btn red"> Log In </button>
+          <button class="btn red">Log In</button>
         </form>
-        <iframe src="https://www.thiscodeworks.com/embed/6200ee2e4dd44f0015f3cda4" style="width: 100%; height: 180px;"
+        <iframe src="https://www.thiscodeworks.com/embed/6200ee2e4dd44f0015f3cda4" style="width: 100%; height: 180px"
           frameborder="0"></iframe>
       </div>
       <!-- Input end -->
@@ -347,7 +354,7 @@
         <div class="box-shadow p-1 mb-1">
           <p class="center-text">This is center text</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6202473ded723a001551c17c" style="width: 100%; height: 294px;"
+        <iframe src="https://www.thiscodeworks.com/embed/6202473ded723a001551c17c" style="width: 100%; height: 294px"
           frameborder="0"></iframe>
       </div>
       <!-- Text utils end -->
@@ -367,23 +374,26 @@
             <li class="text-decoration-none px-1">Item 3</li>
           </ul>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/62027231234b8a0015700b8d" style="width: 100%; height: 229px;"
+        <iframe src="https://www.thiscodeworks.com/embed/62027231234b8a0015700b8d" style="width: 100%; height: 229px"
           frameborder="0"></iframe>
         <p class="text-content">Stacked List</p>
-        
-          <ul class="stacked-list p-1 box-shadow">
-            <li class="list-border px-1">
-              <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img">
-              <span>Friend 1 commented on your post</span></li>
-            <li class="list-border px-1">
-              <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img">
-              <span>Friend 2 liked your post</span> </li>
-            <li class="list-border px-1">
-              <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img">
-              <span>Friend 3 sent Friend request</span></li>
-          </ul>
-        
-        <iframe src="https://www.thiscodeworks.com/embed/62027373234b8a0015700b94" style="width: 100%; height: 294px;"
+
+        <ul class="stacked-list p-1 box-shadow">
+          <li class="list-border px-1">
+            <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img" />
+            <span>Friend 1 commented on your post</span>
+          </li>
+          <li class="list-border px-1">
+            <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img" />
+            <span>Friend 2 liked your post</span>
+          </li>
+          <li class="list-border px-1">
+            <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img" />
+            <span>Friend 3 sent Friend request</span>
+          </li>
+        </ul>
+
+        <iframe src="https://www.thiscodeworks.com/embed/62027373234b8a0015700b94" style="width: 100%; height: 294px"
           frameborder="0"></iframe>
       </div>
       <!-- List end -->
@@ -396,7 +406,9 @@
             <li class="nav-list-item">Logo</li>
           </ul>
           <ul class="nav-list">
-            <li class="nav-list-item"><input type="text" placeholder="Search"></li>
+            <li class="nav-list-item">
+              <input type="text" placeholder="Search" />
+            </li>
           </ul>
           <ul class="nav-list">
             <li class="nav-list-item"><button>Login</button></li>
@@ -404,7 +416,7 @@
             <li class="nav-list-item">Cart</li>
           </ul>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/6202bbe6234b8a0015700be7" style="width: 100%; height: 255px;"
+        <iframe src="https://www.thiscodeworks.com/embed/6202bbe6234b8a0015700be7" style="width: 100%; height: 255px"
           frameborder="0"></iframe>
       </div>
       <!-- Navigation end -->
@@ -419,8 +431,9 @@
     });
     document.querySelectorAll(".nav-item").forEach((e) => {
       e.addEventListener("click", () => {
-      document.querySelector(".sidebar").style.display = "none";
-    })})
+        document.querySelector(".sidebar").style.display = "none";
+      });
+    });
   </script>
 </body>
 
