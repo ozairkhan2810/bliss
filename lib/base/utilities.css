@@ -97,6 +97,20 @@
   color: var(--red);
 }
 
+.white {
+  color: var(--white);
+}
+
+.black {
+  color: var(--black);
+}
+
+/* fonst size */
+.font-size-5 {
+  font-size: 5rem;
+}
+
+/* font weight */
 .bold-500 {
   font-weight: 500;
 }
@@ -111,15 +125,15 @@
 }
 
 /* background */
-.red {
+.bg-red {
   background: var(--red);
 }
 
-.green {
+.bg-green {
   background: var(--light-green);
 }
 
-.gray {
+.bg-gray {
   background: var(--gray);
 }
 
