@@ -83,6 +83,11 @@ ul.stacked-list {
   margin-left: -10px;
 }
 
+.modal-container {
+  background-color: var(--light-gray);
+  padding: 1rem;
+}
+
 @media only screen and (max-width: 790px) {
   .brand {
     width: 6rem;

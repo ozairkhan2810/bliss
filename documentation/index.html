@@ -15,13 +15,13 @@
   <!-- nav bar -->
   <header>
     <nav class="navbar flex">
-      <div class="flex align-items-center">
+      <div class="flex align-center">
         <span class="material-icons ham"> menu </span>
         <a href="../index.html">
           <img class="brand" src="../assets/logo/logo.png" alt="logo" />
         </a>
       </div>
-      <ul class="flex align-items-center gap-2">
+      <ul class="flex align-center gap-2">
         <li class="home px-1">
           <a class="bold-500" href="../index.html">Home</a>
         </li>
@@ -36,7 +36,6 @@
   <!-- content -->
   <div class="flex">
     <!-- sidebar content -->
-    <!-- <input class="sidebar-toggle" type="checkbox"> -->
     <aside class="sidebar hidden flex flex-column px-1 box-shadow">
       <h3 class="font-size-large">Components</h3>
       <ul class="sidebar-list">
@@ -50,6 +49,7 @@
         <li class="nav-item"><a href="#text-utils">Text Utilities</a></li>
         <li class="nav-item"><a href="#list">List</a></li>
         <li class="nav-item"><a href="#navigation">Navigation</a></li>
+        <li class="nav-item"><a href="#modal">Modal</a></li>
       </ul>
     </aside>
 
@@ -130,7 +130,7 @@
       <div id="button" class="ml-1 newline pb-1 mb-1">
         <h3>Button</h3>
         <p>
-          Buttons are the most common and most important part of a web app
+          Buttons are the most common and most important part of a website
           that allows you to navigate from one page to another, perform
           certain actions etc.
         </p>
@@ -175,100 +175,100 @@
       <!-- Card Component -->
       <div id="card" class="ml-1 pb-3 newline">
         <h3>Card</h3>
+        <p>
+          Card components provide flexible and extensible content container
+          with multiple variants and options.
+        </p>
         <p class="text-content">Card with badge</p>
         <div class="card-badge mb-1">
-          <div class="rel">
-            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
-            <div class="card-badge-msg">Coming Soon</div>
+          <div class="card-img-container">
+            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="ipl" />
+            <span class="card-badge-text">Coming Soon</span>
           </div>
-          <div class="card-main">
-            <h3 class="card-title">IPL - Indian Premier League</h3>
-            <h5 class="card-author">by Ozair Khan</h5>
+          <div class="card-body">
+            <div class="card-content">IPL</div>
+            <div class="card-sub-content">Starting soon...</div>
           </div>
-          <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fe9159bcdcda001500593a" style="width: 100%; height: 230px"
+        <iframe src="https://www.thiscodeworks.com/embed/620d79e11285b600155ec1d3" style="width: 100%; height: 216px"
           frameborder="0"></iframe>
         <p class="text-content">Card with dismiss</p>
-        <div class="card-dismiss">
-          <div class="rel">
-            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
-            <div class="card-dismiss-pic">
-              <img src="../assets/card/cross.svg" alt="cross-icon" />
-            </div>
+        <div class="card-dismiss mb-1">
+          <div class="card-img-container">
+            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="ipl" />
+            <span class="material-icons card-dismiss-icon"> close </span>
           </div>
-          <div class="card-main">
-            <h3 class="card-title">IPL - Indian Premier League</h3>
-            <h5 class="card-author">by Ozair Khan</h5>
+          <div class="card-body">
+            <div class="card-content">IPL</div>
+            <div class="card-sub-content">Starting soon...</div>
           </div>
-          <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fe9fe7bcdcda001500593d" style="width: 100%; height: 260px"
+        <iframe src="https://www.thiscodeworks.com/embed/620d7a611285b600155ec1d4" style="width: 100%; height: 216px"
           frameborder="0"></iframe>
         <p class="text-content">Card with text overlay</p>
-        <div class="card-text-overlay">
-          <div class="rel">
-            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
-            <div class="card-text-overlay-main">
-              <h3 class="card-title">IPL - Indian Premier League</h3>
-              <h5 class="card-author">by Ozair Khan</h5>
-            </div>
+        <div class="card-overlay mb-1">
+          <div class="card-img-container">
+            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+            <span class="card-text-overlay">Text Over Card</span>
           </div>
-          <p class="card-content">IPL is the best T20 league in the world.</p>
+          <div class="card-body">
+            <div class="card-content">IPL</div>
+            <div class="card-sub-content">Starting soon...</div>
+          </div>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea58abcdcda001500593f" style="width: 100%; height: 230px"
+        <iframe src="https://www.thiscodeworks.com/embed/620d7aca1285b600155ec1d5" style="width: 100%; height: 216px"
           frameborder="0"></iframe>
         <p class="text-content">Text only card</p>
-        <div class="card-text-only">
-          <div class="card-text-only-main">
-            <h3 class="card-title">IPL - Indian Premier League</h3>
-            <h5 class="card-author">by Ozair Khan</h5>
+        <div class="card-text-only mb-1">
+          <div class="card-body">
+            <div class="card-content">IPL</div>
+            <div class="card-sub-content">
+              The Indian Premier League is a professional men's Twenty20
+              cricket league, contested by ten teams based out of ten Indian
+              cities.
+            </div>
           </div>
-          <p class="card-content">IPL is the best T20 league in the world.</p>
-          <p class="card-content flex gap-1">
-            Follow for more
-            <img src="../assets/card/red-heart.svg" alt="heart" />
-          </p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea616bcdcda0015005940" style="width: 100%; height: 200px"
+        <iframe src="https://www.thiscodeworks.com/embed/620d7b1c1285b600155ec1d6" style="width: 100%; height: 164px"
           frameborder="0"></iframe>
-        <p class="text-content">Horizontal/ Vertical card</p>
-        <div class="card-horizontal">
-          <div class="rel">
-            <img class="img-card-horizontal" src="../assets/cricket/horizon.png" alt="card-pic" />
+        <p class="text-content">Horizontal card</p>
+        <div class="card-horizontal mb-1">
+          <div class="card-img-container">
+            <img class="card-horizontal-img" src="../assets/cricket/horizon.png" alt="card-pic" />
           </div>
-          <div class="card-main">
-            <h3 class="card-title">IPL - Indian Premier League</h3>
-            <h5 class="card-author">by Ozair Khan</h5>
+          <div class="card-body">
+            <div class="card-content">IPL</div>
+            <div class="card-sub-content">Starting soon...</div>
           </div>
-          <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea677bcdcda0015005941" style="width: 100%; height: 230px"
+        <iframe src="https://www.thiscodeworks.com/embed/620d7b791285b600155ec1d7" style="width: 100%; height: 203px"
           frameborder="0"></iframe>
-        <div class="card-vertical flex">
-          <div class="rel">
-            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+        <p class="text-content">Vertical card</p>
+        <div class="card-vertical mb-1">
+          <div class="card-img-container">
+            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="card-pic" />
           </div>
-          <div class="card-main">
-            <h3 class="card-title">IPL - Indian Premier League</h3>
-            <h5 class="card-author">by Ozair Khan</h5>
+          <div class="card-body">
+            <div class="card-content">IPL</div>
+            <div class="card-sub-content">Starting soon...</div>
+            <div class="card-sub-content">Only on hotstar</div>
+            <div class="card-sub-content">Everyday @7</div>
           </div>
-          <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea6ddbcdcda0015005942" style="width: 100%; height: 220px"
+        <iframe src="https://www.thiscodeworks.com/embed/620d7bd51285b600155ec1d8" style="width: 100%; height: 203px"
           frameborder="0"></iframe>
         <p class="text-content">Card with shadow</p>
-        <div class="card-shadow">
-          <div class="rel">
-            <img class="img-card" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+        <div class="card-shadow mb-1">
+          <div class="card-img-container">
+            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="ipl" />
+            <span class="card-badge-text">Coming Soon</span>
           </div>
-          <div class="card-main">
-            <h3 class="card-title">IPL - Indian Premier League</h3>
-            <h5 class="card-author">by Ozair Khan</h5>
+          <div class="card-body">
+            <div class="card-content">IPL</div>
+            <div class="card-sub-content">Starting soon...</div>
           </div>
-          <p class="card-content">IPL is the best T20 league in the world.</p>
         </div>
-        <iframe src="https://www.thiscodeworks.com/embed/61fea727bcdcda0015005943" style="width: 100%; height: 230px"
+        <iframe src="https://www.thiscodeworks.com/embed/620d7c2e1285b600155ec1d9" style="width: 100%; height: 216px"
           frameborder="0"></iframe>
       </div>
       <!-- Card end -->
@@ -377,7 +377,6 @@
         <iframe src="https://www.thiscodeworks.com/embed/62027231234b8a0015700b8d" style="width: 100%; height: 229px"
           frameborder="0"></iframe>
         <p class="text-content">Stacked List</p>
-
         <ul class="stacked-list p-1 box-shadow">
           <li class="list-border px-1">
             <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img" />
@@ -392,7 +391,6 @@
             <span>Friend 3 sent Friend request</span>
           </li>
         </ul>
-
         <iframe src="https://www.thiscodeworks.com/embed/62027373234b8a0015700b94" style="width: 100%; height: 294px"
           frameborder="0"></iframe>
       </div>
@@ -420,6 +418,26 @@
           frameborder="0"></iframe>
       </div>
       <!-- Navigation end -->
+      <!-- Modal Component -->
+      <div id="modal" class="ml-1 mb-1 newline">
+        <h3>Modal</h3>
+        <p>Modals are pop ups displayed on top of the screen.</p>
+        <div class="modal-container mb-1">
+          <div class="modal">
+            <div class="modal-header">
+              Are you sure you want to delete this?
+            </div>
+            <div class="modal-body">You can't undo this action</div>
+            <div class="modal-footer">
+              <button class="btn btn-secondary">Cancel</button>
+              <button class="btn btn-primary">Delete</button>
+            </div>
+          </div>
+        </div>
+        <iframe src="https://www.thiscodeworks.com/embed/620e68a51285b600155ec26a" style="width: 100%; height: 242px"
+          frameborder="0"></iframe>
+      </div>
+      <!-- Modal end -->
     </div>
     <!-- main class end -->
   </div>
