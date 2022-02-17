@@ -14,9 +14,9 @@
   width: 1.5rem;
   color: var(--white);
   position: absolute;
-  right: -0.3rem;
-  top: -0.5rem;
-  border: 2px solid var(--white);
+  right: -8px;
+  top: -8px;
+  border: 1px solid var(--white);
   color: var(--white);
   display: flex;
   justify-content: center;
