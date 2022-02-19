@@ -1,6 +1,6 @@
 .badge-container {
-  height: 2.2rem;
-  width: 2.2rem;
+  height: 2rem;
+  width: 2rem;
   position: relative;
 }
 
@@ -12,7 +12,6 @@
 .badge {
   height: 1.5rem;
   width: 1.5rem;
-  color: var(--white);
   position: absolute;
   right: -8px;
   top: -8px;
@@ -21,6 +20,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  background: var(--red);
 }
 
 .badge-img,
