@@ -1,0 +1,35 @@
+.rating-simple {
+  display: flex;
+  align-items: center;
+}
+
+.rating,
+.rating-number-container,
+.rating-number {
+  font-size: 1.25rem;
+}
+
+.rating-number-container,
+.rating-number {
+  color: var(--white);
+}
+
+.rating {
+  color: var(--brown);
+}
+
+.rating-number-container {
+  width: 4rem;
+  background: var(--brown);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  height: 2rem;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.rating-number {
+  padding-top: 1px;
+}

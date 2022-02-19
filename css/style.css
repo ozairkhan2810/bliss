@@ -18,6 +18,7 @@ header {
   align-items: center;
   justify-content: space-between;
   margin: 0 1rem;
+  padding: 0.75rem;
 }
 
 .brand {
@@ -39,8 +40,8 @@ header {
 
 /* sidebar styling for documentation page */
 .sidebar {
-  margin-top: 5rem;
-  width: 12.5rem;
+  margin-top: 4.5rem;
+  width: 10rem;
   position: fixed;
   height: 90vh;
   background: var(--dark-yellow);
@@ -48,20 +49,19 @@ header {
 }
 
 .sidebar li {
-  border-bottom: 2px solid var(--white);
-  padding-bottom: 0.5rem;
-  margin-top: 1rem;
+  padding-bottom: 1rem;
   font-size: 1.2rem;
 }
 
 .sidebar li a:hover {
-  padding-left: 1rem;
+  padding-left: 0.5rem;
+  border-left: 2px solid var(--black);
 }
 
 /* main content styling for documentation page */
 .main {
   width: 80%;
-  margin-left: 13.5rem;
+  margin-left: 12rem;
   margin-top: 5rem;
 }
 
@@ -86,6 +86,12 @@ ul.stacked-list {
 .modal-container {
   background-color: var(--light-gray);
   padding: 1rem;
+}
+
+.rating-container {
+  width: 14rem;
+  height: 4rem;
+  margin: auto;
 }
 
 @media only screen and (max-width: 790px) {
