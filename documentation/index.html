@@ -50,6 +50,7 @@
         <li class="nav-item"><a href="#list">List</a></li>
         <li class="nav-item"><a href="#navigation">Navigation</a></li>
         <li class="nav-item"><a href="#modal">Modal</a></li>
+        <li class="nav-item"><a href="#rating">Rating</a></li>
       </ul>
     </aside>
 
@@ -110,17 +111,18 @@
       <!-- Badge Component -->
       <div id="badge" class="ml-1 newline">
         <h3>Badge</h3>
+        <p>Badge generates a small badge to the top-right of its child</p>
         <p class="text-content">Badge on Icon</p>
         <div class="badge-container mb-1">
           <span class="material-icons black"> notifications </span>
-          <span class="badge bg-red">5</span>
+          <span class="badge">5</span>
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/61fcbc98b57bf800152b71fe" style="width: 100%; height: 144px"
           frameborder="0"></iframe>
         <p class="text-content">Badge on Avatar</p>
         <div class="badge-container mb-1">
           <img class="badge-img" src="../assets/astro.png" alt="astro" />
-          <span class="badge bg-red">5</span>
+          <span class="badge">5</span>
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/61fcbd09b57bf800152b71ff" style="width: 100%; height: 144px"
           frameborder="0"></iframe>
@@ -182,7 +184,7 @@
         <p class="text-content">Card with badge</p>
         <div class="card-badge mb-1">
           <div class="card-img-container">
-            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="ipl" />
+            <img class="card-img" src="../assets/card/ipl.jpg" alt="ipl" />
             <span class="card-badge-text">Coming Soon</span>
           </div>
           <div class="card-body">
@@ -195,7 +197,7 @@
         <p class="text-content">Card with dismiss</p>
         <div class="card-dismiss mb-1">
           <div class="card-img-container">
-            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="ipl" />
+            <img class="card-img" src="../assets/card/ipl.jpg" alt="ipl" />
             <span class="material-icons card-dismiss-icon"> close </span>
           </div>
           <div class="card-body">
@@ -208,7 +210,7 @@
         <p class="text-content">Card with text overlay</p>
         <div class="card-overlay mb-1">
           <div class="card-img-container">
-            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+            <img class="card-img" src="../assets/card/ipl.jpg" alt="card-pic" />
             <span class="card-text-overlay">Text Over Card</span>
           </div>
           <div class="card-body">
@@ -224,7 +226,7 @@
             <div class="card-content">IPL</div>
             <div class="card-sub-content">
               The Indian Premier League is a professional men's Twenty20
-              cricket league, contested by ten teams based out of ten Indian
+              Cricket league, contested by ten teams based out of ten Indian
               cities.
             </div>
           </div>
@@ -234,7 +236,7 @@
         <p class="text-content">Horizontal card</p>
         <div class="card-horizontal mb-1">
           <div class="card-img-container">
-            <img class="card-horizontal-img" src="../assets/cricket/horizon.png" alt="card-pic" />
+            <img class="card-horizontal-img" src="../assets/card/horizon.png" alt="card-pic" />
           </div>
           <div class="card-body">
             <div class="card-content">IPL</div>
@@ -246,7 +248,7 @@
         <p class="text-content">Vertical card</p>
         <div class="card-vertical mb-1">
           <div class="card-img-container">
-            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="card-pic" />
+            <img class="card-img" src="../assets/card/ipl.jpg" alt="card-pic" />
           </div>
           <div class="card-body">
             <div class="card-content">IPL</div>
@@ -260,7 +262,7 @@
         <p class="text-content">Card with shadow</p>
         <div class="card-shadow mb-1">
           <div class="card-img-container">
-            <img class="card-img" src="../assets/cricket/ipl.jpg" alt="ipl" />
+            <img class="card-img" src="../assets/card/ipl.jpg" alt="ipl" />
             <span class="card-badge-text">Coming Soon</span>
           </div>
           <div class="card-body">
@@ -324,7 +326,7 @@
           <span class="text-fail">Enter correct Email and Password</span>
           <input class="input-fail" type="email" name="email-id" placeholder="Enter Your Email" />
           <input class="input-fail" type="password" name="password" placeholder="Enter Your Password" />
-          <button class="btn red">Log In</button>
+          <button class="btn-primary">Log In</button>
         </form>
         <iframe src="https://www.thiscodeworks.com/embed/6200ee2e4dd44f0015f3cda4" style="width: 100%; height: 180px"
           frameborder="0"></iframe>
@@ -377,7 +379,7 @@
         <iframe src="https://www.thiscodeworks.com/embed/62027231234b8a0015700b8d" style="width: 100%; height: 229px"
           frameborder="0"></iframe>
         <p class="text-content">Stacked List</p>
-        <ul class="stacked-list p-1 box-shadow">
+        <ul class="stacked-list p-1 box-shadow mb-1">
           <li class="list-border px-1">
             <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img" />
             <span>Friend 1 commented on your post</span>
@@ -391,7 +393,7 @@
             <span>Friend 3 sent Friend request</span>
           </li>
         </ul>
-        <iframe src="https://www.thiscodeworks.com/embed/62027373234b8a0015700b94" style="width: 100%; height: 294px"
+        <iframe src="https://www.thiscodeworks.com/embed/62027373234b8a0015700b94" style="width: 100%; height: 244px"
           frameborder="0"></iframe>
       </div>
       <!-- List end -->
@@ -438,6 +440,31 @@
           frameborder="0"></iframe>
       </div>
       <!-- Modal end -->
+      <!-- Rating Component -->
+      <div id="rating" class="ml-1 mb-1 newline">
+        <h3>Rating</h3>
+        <p>
+          Rating components can be used as read-only badge or in reviews
+          section.
+        </p>
+        <p class="text-content">Simple Rating</p>
+        <div class="rating-container">
+          <div class="rating-simple">
+            <span class="material-icons rating"> star </span>            
+            <span class="material-icons rating"> star </span>
+            <span class="material-icons rating"> star </span>
+            <span class="material-icons rating"> star </span>
+            <span class="material-icons rating"> star </span>
+          </div>
+        </div>
+        <p class="text-content">Number Rating</p>
+        <div class="flex justify-center">
+          <div class="rating-number-container">
+              4.5 <span class="material-icons rating-number"> star </span>
+          </div>
+        </div>
+      </div>
+      <!-- Rating end -->
     </div>
     <!-- main class end -->
   </div>
