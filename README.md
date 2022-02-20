@@ -27,9 +27,9 @@ Insert gif or video link to demo
  8. Text-Utilities
  9. List
  10. Navigation
+ 11. Modal
+ 12. Rating
  
- - Will update with few more
-
 ## Installation
 
 To use this component library or specific component in your project -
