@@ -1,8 +1,3 @@
-/* icons color */
-.notifications {
-  color: var(--light-red);
-}
-
 /* navbar styling for landing page and documentation page */
 header {
   width: 100%;
@@ -40,7 +35,7 @@ header {
 
 /* sidebar styling for documentation page */
 .sidebar {
-  margin-top: 4.5rem;
+  margin-top: 4rem;
   width: 10rem;
   position: fixed;
   height: 90vh;
@@ -83,6 +78,11 @@ ul.stacked-list {
   margin-left: -10px;
 }
 
+/* icons color */
+.notifications {
+  color: var(--light-red);
+}
+
 .modal-container {
   background-color: var(--light-gray);
   padding: 1rem;
@@ -97,10 +97,6 @@ ul.stacked-list {
 @media only screen and (max-width: 790px) {
   .brand {
     width: 6rem;
-  }
-
-  .sidebar {
-    display: none;
   }
 
   .main {
@@ -133,7 +129,8 @@ ul.stacked-list {
     width: 100%;
   }
 
-  .hidden {
-    display: none;
+  .sidebar-close {
+    left: -10rem;
+    box-shadow: none;
   }
 }

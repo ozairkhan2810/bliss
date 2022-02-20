@@ -36,7 +36,7 @@
   <!-- content -->
   <div class="flex">
     <!-- sidebar content -->
-    <aside class="sidebar hidden flex flex-column px-1 box-shadow">
+    <aside id="sidebar" class="sidebar flex flex-column px-1 box-shadow">
       <h3 class="font-size-large">Components</h3>
       <ul class="sidebar-list">
         <li class="nav-item"><a href="#avatar">Avatar</a></li>
@@ -294,6 +294,7 @@
       <!-- Input Component -->
       <div id="input" class="ml-1 mb-1 newline">
         <h3>Input</h3>
+        <p>Input are used to get information from the user.</p>
         <p class="text-content">Input Textbox</p>
         <div class="textarea-container mb-1 box-shadow">
           <textarea class="textarea" placeholder="Write here..."></textarea>
@@ -321,13 +322,19 @@
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/6200ede24dd44f0015f3cda1" style="width: 100%; height: 307px"
           frameborder="0"></iframe>
-        <p class="text-content">Form error</p>
-        <form class="form-container mb-1 box-shadow">
-          <span class="text-fail">Enter correct Email and Password</span>
-          <input class="input-fail" type="email" name="email-id" placeholder="Enter Your Email" />
-          <input class="input-fail" type="password" name="password" placeholder="Enter Your Password" />
-          <button class="btn-primary">Log In</button>
-        </form>
+        <p class="text-content">Form Input</p>
+        <form class="form-container mb-1" action="">
+          <div class="form-header">Form</div>
+          <div class="form-body">
+              <label for="email">Email</label>
+              <input type="email" placeholder="example@example.com">
+          </div>
+          <div class="form-body">
+              <label for="password">Password</label>
+              <input type="password" placeholder="password">
+          </div>
+          <button class="btn-primary">Submit</button>
+      </form>
         <iframe src="https://www.thiscodeworks.com/embed/6200ee2e4dd44f0015f3cda4" style="width: 100%; height: 180px"
           frameborder="0"></iframe>
       </div>
@@ -473,11 +480,11 @@
   <!-- JS for hamburger onclick -->
   <script>
     document.querySelector(".ham").addEventListener("click", () => {
-      document.querySelector(".sidebar").style.display = "block";
+      document.querySelector("#sidebar").classList.remove("sidebar-close");
     });
     document.querySelectorAll(".nav-item").forEach((e) => {
       e.addEventListener("click", () => {
-        document.querySelector(".sidebar").style.display = "none";
+        document.querySelector(".sidebar").classList.add("sidebar-close");
       });
     });
   </script>
