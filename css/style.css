@@ -59,6 +59,14 @@ header {
   border-right: 1px solid;
 }
 
+.dark .sidebar {
+  background: var(--background-dark);
+}
+
+.dark .sidebar ul li a, .dark .sidebar h3 {
+  color: var(--white);
+}
+
 .sidebar li {
   padding-bottom: 1rem;
   font-size: 1.2rem;
