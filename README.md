@@ -30,6 +30,7 @@ A lightweight, easy to use and fully customizable CSS component library
  10. Navigation
  11. Modal
  12. Rating
+ 13. Slider
  
 ## Installation
 
