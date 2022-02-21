@@ -1,6 +1,6 @@
 .avatar {
-  height: 4.5rem;
-  width: 4.5rem;
+  height: 4.25rem;
+  width: 4.25rem;
   border-radius: 50%;
 }
 
@@ -29,8 +29,8 @@
   width: 1.2rem;
   border-radius: 50%;
   position: absolute;
-  top: 3rem;
-  right: 1rem;
+  top: 3.3rem;
+  right: 5px;
   border: 2px solid var(--white);
 }
 
