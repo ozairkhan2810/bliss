@@ -8,7 +8,7 @@ A lightweight, easy to use and fully customizable CSS component library
 ![image](https://user-images.githubusercontent.com/53835647/154932084-53d646cd-d134-42ad-b839-face126ac244.png)
 
 [Documentation](https://bliss-ui.netlify.app/documentation/index.html)
-![image](https://user-images.githubusercontent.com/53835647/154935492-f11615f7-59f9-4fd1-8ad1-43662494406c.png)
+![image](https://user-images.githubusercontent.com/53835647/155016493-7b20770a-338a-4d85-b7d8-e1b5796a46a5.png)
 
 ## Features
 
