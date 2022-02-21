@@ -26,9 +26,13 @@ header {
 }
 
 .dark .navbar ul li a img,
-.dark .main img {
+.dark .main .av-list img {
   background: var(--font-color);
   border-radius: 50%;
+}
+
+.dark .color-bg-container {
+  color: var(--color-bg-container);
 }
 
 /* main landing page */
@@ -51,7 +55,7 @@ header {
 /* sidebar styling for documentation page */
 .sidebar {
   margin-top: 4rem;
-  width: 10rem;
+  width: 18rem;
   position: fixed;
   height: 90vh;
   background: var(--dark-yellow);
@@ -63,18 +67,29 @@ header {
   background: var(--background-dark);
 }
 
-.dark .sidebar ul li a, .dark .sidebar h3 {
+.dark .sidebar ul li a,
+.dark .sidebar h3 {
   color: var(--white);
 }
 
 .sidebar li {
   padding-bottom: 1rem;
   font-size: 1.2rem;
+  margin: 0 auto;
 }
 
 .sidebar li a,
 .sidebar h3 {
   color: var(--black);
+}
+
+.sidebar-list li {
+  margin: 0 auto;
+}
+
+.sidebar-list li {
+  letter-spacing: 4px;
+  text-align: center;
 }
 
 .sidebar li a:hover {
@@ -84,16 +99,12 @@ header {
 
 /* main content styling for documentation page */
 .main {
-  width: 80%;
-  margin-left: 12rem;
+  width: 70%;
+  margin-left: 18rem;
   margin-top: 5rem;
 }
 
 /* documentation */
-#text-utils > div {
-  width: 65%;
-}
-
 ul.stacked-list {
   width: 60%;
 }
@@ -112,38 +123,25 @@ ul.stacked-list {
   color: var(--light-red);
 }
 
-#image .image-responsive img,
-#card img {
+#image .image-responsive img {
   border-radius: 0%;
 }
 
-.modal-container {
-  background-color: var(--light-gray);
-  padding: 1rem;
-}
-
-.modal div,
-.modal div button,
-.stacked-list span,
-.form-container div,
-.form-container label,
-.input-container label,
-.input-container span {
+.dark .black {
   color: var(--black);
 }
 
-.rating-container {
-  width: 14rem;
-  height: 4rem;
-  margin: auto;
+.dark .rating {
+  color: var(--brown);
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 820px) {
   .brand {
     width: 6rem;
   }
 
   .sidebar {
+    display: none;
     background-color: var(--beige);
   }
 
@@ -178,7 +176,7 @@ ul.stacked-list {
   }
 
   .sidebar-close {
-    left: -10rem;
+    left: -18rem;
     box-shadow: none;
   }
 
