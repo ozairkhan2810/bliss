@@ -4,10 +4,11 @@ A lightweight, easy to use and fully customizable CSS component library
 
 ## Preview
 
-Insert gif or video link to demo 
+[HomePage](bliss-ui.netlify.app)
+![image](https://user-images.githubusercontent.com/53835647/154932084-53d646cd-d134-42ad-b839-face126ac244.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-
+[Documentation](https://bliss-ui.netlify.app/documentation/index.html)
+![image](https://user-images.githubusercontent.com/53835647/154935492-f11615f7-59f9-4fd1-8ad1-43662494406c.png)
 
 ## Features
 
