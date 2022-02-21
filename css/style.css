@@ -16,8 +16,19 @@ header {
   padding: 0.75rem;
 }
 
-.brand {
+.brand-light,
+.brand-dark {
   width: 7.5rem;
+}
+
+.brand-dark {
+  display: none;
+}
+
+.dark .navbar ul li a img,
+.dark .main img {
+  background: var(--font-color);
+  border-radius: 50%;
 }
 
 /* main landing page */
@@ -25,6 +36,10 @@ header {
   width: 90%;
   height: 100vh;
   margin: 0 auto;
+}
+
+.dark * {
+  color: var(--font-color);
 }
 
 /* button styling for landing page */
@@ -40,12 +55,26 @@ header {
   position: fixed;
   height: 90vh;
   background: var(--dark-yellow);
-  z-index: 5;
+  z-index: 50;
+  border-right: 1px solid;
+}
+
+.dark .sidebar {
+  background: var(--background-dark);
+}
+
+.dark .sidebar ul li a, .dark .sidebar h3 {
+  color: var(--white);
 }
 
 .sidebar li {
   padding-bottom: 1rem;
   font-size: 1.2rem;
+}
+
+.sidebar li a,
+.sidebar h3 {
+  color: var(--black);
 }
 
 .sidebar li a:hover {
@@ -83,9 +112,24 @@ ul.stacked-list {
   color: var(--light-red);
 }
 
+#image .image-responsive img,
+#card img {
+  border-radius: 0%;
+}
+
 .modal-container {
   background-color: var(--light-gray);
   padding: 1rem;
+}
+
+.modal div,
+.modal div button,
+.stacked-list span,
+.form-container div,
+.form-container label,
+.input-container label,
+.input-container span {
+  color: var(--black);
 }
 
 .rating-container {
@@ -97,6 +141,10 @@ ul.stacked-list {
 @media only screen and (max-width: 790px) {
   .brand {
     width: 6rem;
+  }
+
+  .sidebar {
+    background-color: var(--beige);
   }
 
   .main {
@@ -132,5 +180,16 @@ ul.stacked-list {
   .sidebar-close {
     left: -10rem;
     box-shadow: none;
+  }
+
+  .nav-list {
+    gap: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 0;
+  }
+
+  .nav-list li {
+    padding-left: 0.5rem;
+    padding-right: 0;
   }
 }
