@@ -18,6 +18,9 @@
   --dark-gray: #c5b2b2;
   --font-color: #202124;
   --beige: beige;
+
+  --bg-container: #fcffd6;
+  --color-bg-container: #000000;
 }
 
 .dark {
@@ -40,4 +43,7 @@
   --dark-gray: #c5b2b2;
   --font-color: #dddddd;
   --beige: beige;
+
+  --bg-container: #000000;
+  --color-bg-container: #000000;
 }
