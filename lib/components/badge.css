@@ -9,9 +9,10 @@
   height: 100%;
 }
 
-.badge {
-  height: 1.5rem;
-  width: 1.5rem;
+.badge-icon,
+.badge-avatar {
+  height: 1rem;
+  width: 1rem;
   position: absolute;
   right: -8px;
   top: -8px;
@@ -21,9 +22,29 @@
   justify-content: center;
   align-items: center;
   background: var(--red);
+  font-size: 0.8rem;
+    padding-bottom: 1px;
 }
 
 .badge-img,
-.badge {
+.badge-icon,
+.badge-avatar {
   border-radius: 50%;
+}
+
+@media only screen and (max-width: 830px) {
+  .badge-avatar,
+  .badge-icon {
+    border: none;
+  }
+
+  .badge-icon {
+    right: -4px;
+    top: -8px;
+  }
+
+  .badge-avatar {
+    right: -6px;
+    top: -4px;
+  }
 }
