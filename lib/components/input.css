@@ -52,7 +52,7 @@
   border: 2px solid var(--light-red);
 }
 
-.text-fail {
+span.text-fail {
   color: var(--red);
 }
 
@@ -60,7 +60,7 @@
   border: 2px solid var(--green);
 }
 
-.text-success {
+span.text-success {
   color: var(--green);
 }
 
