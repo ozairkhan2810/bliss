@@ -5,7 +5,8 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>blissUI</title>
+  <title> blissUI | Component Library </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="./bliss.css" />
   <link rel="stylesheet" href="../css/style.css" />
 </head>
@@ -14,7 +15,8 @@
   <header>
     <nav class="navbar flex">
       <a href="./index.html">
-        <img class="brand" src="./assets/logo/logo.png" alt="logo" />
+        <img class="brand-light" src="./assets/logo/bliss-logo.png" alt="logo" />
+        <img class="brand-dark" src="./assets/logo/bliss-logo-on-dark.png" alt="logo" />
       </a>
       <ul class="flex align-center gap-2">
         <li class="px-1">
@@ -24,6 +26,9 @@
           <a href="https://github.com/ozairkhan2810/bliss" target="_blank">
             <img src="./assets/social/github.svg" alt="github" />
           </a>
+        </li>
+        <li class="px-1">
+          <button class="light-dark-mode"><span class="material-icons"> brightness_6 </span></button>
         </li>
       </ul>
     </nav>
@@ -55,6 +60,7 @@
   <footer>
     <p class="flex justify-center p-1">Used icons from&nbsp;<a href="https://fonts.google.com/icons"> Google Fonts</a>&nbsp;for project.</p>
   </footer>
+  <script src="./documentation/script.js"></script>
 </body>
 
 </html>
