@@ -14,8 +14,8 @@
   height: 1rem;
   width: 1rem;
   position: absolute;
-  right: -8px;
-  top: -8px;
+  right: -4px;
+  top: -4px;
   border: 1px solid var(--white);
   color: var(--white);
   display: flex;
@@ -24,6 +24,10 @@
   background: var(--red);
   font-size: 0.8rem;
     padding-bottom: 1px;
+}
+
+.badge-icon {
+  right: 0;
 }
 
 .badge-img,
@@ -39,7 +43,6 @@
   }
 
   .badge-icon {
-    right: -4px;
     top: -8px;
   }
 
