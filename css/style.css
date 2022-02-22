@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto+Mono&display=swap");
+
 /* navbar styling for landing page and documentation page */
 header {
   width: 100%;
@@ -36,6 +38,12 @@ header {
 }
 
 /* main landing page */
+.main-heading {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Roboto Mono", monospace;
+  font-size: 3rem;
+}
+
 .main-landing {
   width: 90%;
   height: 100vh;
