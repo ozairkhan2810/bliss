@@ -78,10 +78,15 @@
   width: 100%;
 }
 
+.img-text {
+  opacity: 0.5;
+}
+
 .card-text-overlay {
-  top: 7rem;
-  left: 4rem;
-  font-size: 1.5rem;
+  left: 0;
+  bottom: 0;
+  font-size: 2.5rem;
+  color: var(--black);
 }
 
 .card-sub-content {
@@ -96,8 +101,12 @@
   width: 100%;
 }
 
-.card-shadow {
-  box-shadow: 5px 5px var(--gray);
+.light .card-shadow {
+  box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
+.dark {
+  box-shadow: 10px 10px 5px 0px rgba(255, 255, 255, 0.25);
 }
 
 @media only screen and (max-width: 830px) {
