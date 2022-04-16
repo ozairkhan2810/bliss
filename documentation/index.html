@@ -70,6 +70,9 @@
     <!-- main content -->
     <div class="main">
       <h1 id="main-heading" class="main-heading pl-1">Getting Started</h1>
+      <a href="#main-heading">
+        <span class="material-icons goto-top"> arrow_upward </span>
+      </a>
       <p class="pl-1">BlissUI CSS works by scanning all of your HTML files, and any other templates for class names,
         generating the corresponding styles.
         It's fast, flexible, and reliable. Get started with following documentation examples.</p>
@@ -236,7 +239,7 @@
         <div class="bg-container p-1 mb-1">
           <div class="card-overlay">
             <div class="card-img-container">
-              <img class="card-img" src="../assets/card/ipl.jpg" alt="card-pic" />
+              <img class="card-img img-text" src="../assets/card/ipl.jpg" alt="card-image" />
               <span class="card-text-overlay">Text Over Card</span>
             </div>
             <div class="card-body">
@@ -266,7 +269,7 @@
         <div class="bg-container p-1 mb-1">
           <div class="card-horizontal">
             <div class="card-img-container">
-              <img class="card-horizontal-img" src="../assets/card/horizon.png" alt="card-pic" />
+              <img class="card-horizontal-img" src="../assets/card/horizon.png" alt="card-image" />
             </div>
             <div class="card-body">
               <div class="card-content color-bg-container">IPL</div>
@@ -280,7 +283,7 @@
         <div class="bg-container p-1 mb-1">
           <div class="card-vertical">
             <div class="card-img-container">
-              <img class="card-img" src="../assets/card/ipl.jpg" alt="card-pic" />
+              <img class="card-img" src="../assets/card/ipl.jpg" alt="card-image" />
             </div>
             <div class="card-body">
               <div class="card-content color-bg-container">IPL</div>
@@ -294,7 +297,7 @@
           frameborder="0"></iframe>
         <p class="text-content">Card with shadow</p>
         <div class="bg-container p-1 mb-1">
-          <div class="card-shadow">
+          <div class="card-shadow dark">
             <div class="card-img-container">
               <img class="card-img" src="../assets/card/ipl.jpg" alt="ipl" />
               <span class="card-badge-text">Coming Soon</span>
@@ -315,7 +318,7 @@
         <p class="text-content">Responsive Image</p>
         <div class="bg-container p-1 mb-1">
           <div class="image-responsive mb-1">
-            <img src="https://picsum.photos/400/200" alt="picsum-image" />
+            <img src="https://picsum.photos/400/200" alt="responsive-image" />
           </div>
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/6201721ded723a001551c02f" style="width: 100%; height: 135px"
@@ -323,7 +326,7 @@
         <p class="text-content">Round Image</p>
         <div class="bg-container p-1 mb-1">
           <div class="image-round">
-            <img src="https://picsum.photos/200/200" alt="picsum-image" />
+            <img src="https://picsum.photos/200/200" alt="round-image" />
           </div>
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/62017258ed723a001551c030" style="width: 100%; height: 135px"
@@ -444,15 +447,15 @@
         <div class="bg-container p-1 mb-1">
           <ul class="stacked-list p-1">
             <li class="list-border px-1 bg-white">
-              <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img" />
+              <img class="img" src="https://picsum.photos/id/1/200/200" alt="list-image" />
               <span class="black">Friend 1 commented on your post</span>
             </li>
             <li class="list-border px-1 bg-white">
-              <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img" />
+              <img class="img" src="https://picsum.photos/id/1/200/200" alt="list-image" />
               <span class="black">Friend 2 liked your post</span>
             </li>
             <li class="list-border px-1 bg-white">
-              <img class="img" src="https://picsum.photos/id/1/200/200" alt="picsum-img" />
+              <img class="img" src="https://picsum.photos/id/1/200/200" alt="list-image" />
               <span class="black">Friend 3 sent Friend request</span>
             </li>
           </ul>
@@ -475,9 +478,15 @@
             </li>
           </ul>
           <ul class="nav-list">
-            <li class="nav-list-item"><button class="btn white">Login</button></li>
-            <li class="nav-list-item">WishList</li>
-            <li class="nav-list-item">Cart</li>
+            <li class="nav-list-item"><button class="btn white"><span class="material-icons white">
+                  person_outline
+                </span></button></li>
+            <li class="nav-list-item"><span class="material-icons white">
+                favorite_border
+              </span></li>
+            <li class="nav-list-item"><span class="material-icons white">
+                shopping_cart
+              </span></li>
           </ul>
         </div>
         <iframe src="https://www.thiscodeworks.com/embed/6202bbe6234b8a0015700be7" style="width: 100%; height: 180px"
