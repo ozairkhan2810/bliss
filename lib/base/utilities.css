@@ -23,6 +23,11 @@
   flex-wrap: wrap;
 }
 
+/* grid */
+.grid {
+  display: grid;
+}
+
 /* gap */
 .gap-1 {
   gap: 1rem;

@@ -27,6 +27,16 @@ header {
   display: none;
 }
 
+.goto-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  background: var(--black);
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: white;
+}
+
 .dark .navbar ul li a img,
 .dark .main .av-list img {
   background: var(--font-color);
