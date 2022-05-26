@@ -17,33 +17,30 @@
 </head>
 
 <body class="light">
-  <!-- nav bar -->
-  <header>
-    <nav class="navbar flex">
-      <div class="flex align-center">
-        <span class="material-icons ham"> menu </span>
-        <a href="../index.html">
-          <img class="brand-light" src="../assets/logo/bliss-logo.png" alt="logo" />
-          <img class="brand-dark" src="../assets/logo/bliss-logo-on-dark.png" alt="logo" />
-        </a>
-      </div>
-      <ul class="nav-list flex align-center gap-2">
-        <li class="px-1">
-          <a class="bold-500" href="#">Docs</a>
-        </li>
-        <li class="px-1">
-          <a href="https://github.com/ozairkhan2810/bliss" target="_blank">
-            <img src="../assets/social/github.svg" alt="github" />
+  <div class="container-docs">
+    <header>
+      <nav class="flex align-center justify-between mx-0 my-1 p-1">
+        <div class="flex align-center justify-between pl-2">
+          <span class="material-icons ham"> menu </span>
+          <a href="../index.html">
+            <h1 class="my-0 font-size-large pl-1">blissUI</h1>
           </a>
-        </li>
-        <li class="px-1">
-          <button class="light-dark-mode"><span class="material-icons"> brightness_6 </span></button>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <!-- content -->
-  <div class="flex">
+        </div>
+        <ul class="nav-list flex align-center gap-2">
+          <li class="px-1">
+            <a class="bold-500" href="#">Docs</a>
+          </li>
+          <li class="px-1">
+            <a href="https://github.com/ozairkhan2810/bliss" target="_blank">
+              <img src="../assets/social/github.svg" alt="github" />
+            </a>
+          </li>
+          <li class="px-1">
+            <button class="light-dark-mode"><span class="material-icons"> brightness_6 </span></button>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <!-- sidebar content -->
     <aside id="sidebar" class="sidebar flex flex-column px-1">
       <h4 class="center-text pt-1"><a href="#main-heading">Getting Started</a></h4>
@@ -66,9 +63,7 @@
         <li class="nav-item"><a href="#grid">Grid</a></li>
       </ul>
     </aside>
-
-    <!-- main content -->
-    <div class="main">
+    <main>
       <h1 id="main-heading" class="main-heading pl-1">Getting Started</h1>
       <p class="pl-1">BlissUI CSS works by scanning all of your HTML files, and any other templates for class names,
         generating the corresponding styles.
@@ -535,7 +530,8 @@
       <div id="slider" class="ml-1 mb-1 newline">
         <h3>Slider</h3>
         <p>
-          The Slider component lets you add a slider to your project. Users can drag the slider to pick a number from a
+          The Slider component lets you add a slider to your project. Users can drag the slider to pick a number from
+          a
           range that you specify.
         </p>
         <div class="bg-container p-1 mb-1">
@@ -611,10 +607,10 @@
       </div>
       <!-- Grid end -->
       <!-- main class end -->
-    </div>
-    <!-- content div end -->
-    <!-- JS for hamburger onclick -->
-    <script src="./script.js"></script>
+    </main>
+  </div>
+  <!-- JS for hamburger onclick -->
+  <script src="./script.js"></script>
 </body>
 
 </html>

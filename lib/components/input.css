@@ -24,7 +24,6 @@
 
 .textarea-container,
 .input-container {
-  background: var(--black-shade);
   width: 50%;
 }
 
