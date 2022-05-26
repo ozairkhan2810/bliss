@@ -10,61 +10,62 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon_io/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon_io/favicon-16x16.png">
   <link rel="manifest" href="./assets/favicon_io/site.webmanifest">
-  <title> blissUI | Component Library </title>
+  <title> blissUI | Built for Designing </title>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
   <link rel="stylesheet" href="./bliss.css" />
   <link rel="stylesheet" href="../css/style.css" />
 </head>
 
 <body class="light">
-  <header>
-    <nav class="navbar flex">
-      <a href="./index.html">
-        <img class="brand-light" src="./assets/logo/bliss-logo.png" alt="logo" />
-        <img class="brand-dark" src="./assets/logo/bliss-logo-on-dark.png" alt="logo" />
-      </a>
-      <ul class="nav-list flex align-center gap-2">
-        <li class="px-1">
-          <a class="bold-500" href="./documentation/index.html" target="_blank">Docs</a>
-        </li>
-        <li class="px-1">
-          <a href="https://github.com/ozairkhan2810/bliss" target="_blank">
-            <img src="./assets/social/github.svg" alt="github" />
-          </a>
-        </li>
-        <li class="px-1">
-          <button class="light-dark-mode"><span class="material-icons"> brightness_6 </span></button>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div class="main-landing flex flex-column align-center justify-center">
-      <h1 class="center-text">A Component Library so good.</h1>
-      <h1>It feels like <span class="red">bliss</span>.</h1>
-      <div>
-        <a href="./documentation/index.html" target="_blank"><button class="btn-primary">Get Started</button></a>
-        <a href="#installation"><button class="btn-secondary btn-secondary-lp ml-1">
-            Installation
-          </button></a>
-      </div>
-    </div>
-    <div id="installation" class="main-landing flex flex-column align-center nter">
-      <h1>Usage Guide</h1>
-      <h2 class="red">
-        Copy the link below in head tag of your HTML file
-      </h2>
-      <iframe src="https://www.thiscodeworks.com/embed/62077ef03d90130015398c04" style="width: 70%; height: 110px"
-        frameborder="0"></iframe>
-      <h2>You can also use it by importing in CSS file</h2>
-      <h2 class="red">Copy the below link in your stylesheet</h2>
-      <iframe src="https://www.thiscodeworks.com/embed/6207f39bd9ba1100151e6bbe" style="width: 70%; height: 110px"
-        frameborder="0"></iframe>
-    </div>
-  </main>
-  <footer>
-    <p class="flex justify-center p-1">Used icons from&nbsp;<a href="https://fonts.google.com/icons"> Google Fonts</a>&nbsp;for project.</p>
-  </footer>
+  <div class="container">
+    <header>
+      <nav class="flex align-center justify-between mx-0 my-1 p-1">
+        <a href="./index.html ">
+          <h1 class="my-0 pl-2 font-size-large">blissUI</h1>
+        </a>
+        <ul class="nav-list flex align-center gap-2">
+          <li class="px-1">
+            <a class="bold-500" href="./documentation/index.html">Docs</a>
+          </li>
+          <li class="px-1">
+            <a href="https://github.com/ozairkhan2810/bliss" target="_blank">
+              <img src="./assets/social/github.svg" alt="github" />
+            </a>
+          </li>
+          <li class="px-1">
+            <button class="light-dark-mode">
+              <span class="material-icons"> brightness_6 </span>
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section1 flex flex-column justify-center pl-2">
+        <h1 class="font-size-larger mb-0">Built for designing.</h1>
+        <h2 class="description">
+          A set of small, responsive CSS modules that you can use in every web
+          project
+        </h2>
+        <a href="./documentation/index.html"><button class="btn-primary">Get Started</button></a>
+      </section>
+      <section class="section2 flex flex-column align-center justify-center">
+        <h1>Usage Guide</h1>
+        <h2 class="red">Copy the link below in head tag of your HTML file</h2>
+        <iframe src="https://www.thiscodeworks.com/embed/62077ef03d90130015398c04" style="width: 70%; height: 110px"
+          frameborder="0"></iframe>
+        <h2>You can also use it by importing in CSS file</h2>
+        <h2 class="red">Copy the below link in your stylesheet</h2>
+        <iframe src="https://www.thiscodeworks.com/embed/6207f39bd9ba1100151e6bbe" style="width: 70%; height: 110px"
+          frameborder="0"></iframe>
+      </section>
+    </main>
+    <footer>
+      <p class="flex justify-center p-1">
+        Made by Ozair Khan
+      </p>
+    </footer>
+  </div>
   <script src="./documentation/script.js"></script>
 </body>
 
